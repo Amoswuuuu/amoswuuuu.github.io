@@ -6,7 +6,7 @@
   <link href="https://blog.amoswu.top/atom.xml" rel="self"/>
   
   <link href="https://blog.amoswu.top/"/>
-  <updated>2026-02-03T08:53:08.000Z</updated>
+  <updated>2026-02-04T12:16:42.000Z</updated>
   <id>https://blog.amoswu.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024诺奖经济学奖学习感悟</title>
+    <link href="https://blog.amoswu.top/a41a.html"/>
+    <id>https://blog.amoswu.top/a41a.html</id>
+    <published>2026-02-04T08:14:11.000Z</published>
+    <updated>2026-02-04T12:16:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: 制度塑造繁荣：2024年诺贝尔经济学奖的跨时代启示<br>subtitle: 从历史源流到数字时代的包容性治理<br>headimg: /images/oMYR.jpg<br>date: 2026-02-04<br>tags:</p><ul><li>制度经济学</li><li>诺贝尔奖</li><li>数字治理</li><li>人工智能<br>description: 本文基于2024年诺奖得主的制度理论，探讨国家繁荣背后的激励结构，并结合王坚院士的算力革命视角与上海政务实践，分析如何构建包容性制度以应对数字时代的挑战。</li></ul><hr><h2 id="背景速览"><a href="#背景速览" class="headerlink" title="背景速览"></a>背景速览</h2><div class="story post-story"><p>2024年诺贝尔经济学奖授予达龙·阿西莫格鲁（Daron Acemoglu）、西蒙·约翰逊（Simon Johnson）与詹姆斯·A·罗宾逊（James A. Robinson），以表彰其“揭示制度如何形成并影响国家繁荣”的开创性贡献。三位学者通过引入历史比较与因果识别方法，有力证明了产权保护、政治参与及公共治理等规则，会通过激励结构决定长期的经济增长与机会分配。这一理论不仅解答了贫富差距的历史谜题，更为当下的科技治理提供了至关重要的制度视角。</p><hr></div><h2 id="核心议题：国家贫富差距的制度解释"><a href="#核心议题：国家贫富差距的制度解释" class="headerlink" title="核心议题：国家贫富差距的制度解释"></a>核心议题：国家贫富差距的制度解释</h2><div class="story post-story"><p>国家贫富差距之所以难以用单一变量解释，是因为经济表现往往是制度、资源与历史冲击共同作用的结果。获奖者们的研究指出，尽管各国有着不同的历史起点，但<strong>政治经济制度（Political-Economic Institutions）</strong>才是解释繁荣差异的关键变量。</p><p>制度研究的关键难点在于剥离“共同原因”。三位学者在里程碑式论文《殖民地起源的发展比较：一项经验研究》中，利用殖民史作为外生冲击进行实证分析：殖民者在不同环境下选择了不同的统治策略，进而留下了差异化的制度遗产（Acemoglu, Johnson, &amp; Robinson, 2001）。证据表明，凡是建立了限制政府权力、保障私有产权的地区，经济增长往往更具可持续性；反之，在缺乏制衡的地区，经济发展则容易陷入停滞。这一发现将“制度差异”从抽象概念拉回到了可度量的经验世界。</p></div><h2 id="理论框架：“包容性”与“掠夺性”的二元对立"><a href="#理论框架：“包容性”与“掠夺性”的二元对立" class="headerlink" title="理论框架：“包容性”与“掠夺性”的二元对立"></a>理论框架：“包容性”与“掠夺性”的二元对立</h2><div class="story post-story"><p>基于上述实证研究，阿西莫格鲁与罗宾逊在经典著作《国家为什么会失败》（<em>Why Nations Fail</em>）中，进一步构建了核心理论框架，即<strong>“包容性制度”（Inclusive Institutions）</strong>与<strong>“掠夺性制度”（Extractive Institutions）</strong>的二分法。</p><ul><li><strong>包容性制度</strong>：强调广泛的政治参与、受保护的产权与开放的市场竞争。它鼓励绝大多数人参与经济活动并发挥才能，从而形成“增长—再分配—合法性”的正循环。</li><li><strong>掠夺性制度</strong>：倾向于将资源与机会集中在少数主体手中，通过排他性规则攫取剩余并压制潜在竞争，导致社会陷入“寻租—低效率—不信任”的负循环。</li></ul><p>这一框架不仅是历史诊断工具，更是现代决策的警钟，制度改革一旦错失关键节点，便会形成顽固的<strong>路径依赖（Path Dependence）</strong>。</p><p><img src="/images/Le24UH.jpg" class="lazyload" data-srcset="/images/Le24UH.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图1"></p></div><h2 id="技术变局：从“马力革命”到“算力革命”"><a href="#技术变局：从“马力革命”到“算力革命”" class="headerlink" title="技术变局：从“马力革命”到“算力革命”"></a>技术变局：从“马力革命”到“算力革命”</h2><div class="story post-story"><p>历史上的掠夺性制度往往围绕土地与矿产展开，而在数字时代，<strong>数据成为了新的关键生产要素</strong>。如果我们不加警惕，算法规则可能像当年的殖民政策一样，在无形中划定新的“贫富边界”。</p><p>将制度视角投射到当下的科技浪潮中，我们首先需要理解技术变革的本质。中国工程院院士王坚曾提出一个极具洞察力的历史分期视角，将工业革命划分为三个阶段：</p><ol><li> <strong>马力革命</strong>：人类驯化动力，留下了道路网，但供给始终短缺；</li><li> <strong>电力革命</strong>：电力淘汰马力，形成了覆盖全民的电网，解决了供给问题却带来巨大的资源消耗；</li><li> <strong>算力革命</strong>：即将在城市中形成“算力网”，旨在以极低的资源消耗提升生活水平。</li></ol><p>在算力革命的浪潮下，城市将成为人工智能（AI）最大的应用场景。然而，技术本身并不能自动保证普惠繁荣。正如阿西莫格鲁所言，新技术更像是一组放大器。<strong>它既能放大效率，也可能放大不平等。</strong></p><p><img src="/images/fmIwz.jpg" class="lazyload" data-srcset="/images/fmIwz.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图2"></p></div><h2 id="治理启示：构建数字时代的包容性制度"><a href="#治理启示：构建数字时代的包容性制度" class="headerlink" title="治理启示：构建数字时代的包容性制度"></a>治理启示：构建数字时代的包容性制度</h2><div class="story post-story"><p>人工智能的应用方向取决于制度导向。如果缺乏包容性的治理架构，强大的算力可能沦为少数企业强化垄断或政府过度控制的工具。对此，我认为未来制度化布局有三个可行的维度：</p><h3 id="1-制度导向决定技术路径"><a href="#1-制度导向决定技术路径" class="headerlink" title="1. 制度导向决定技术路径"></a>1. 制度导向决定技术路径</h3><p>技术是服务于公共治理还是排他性获利，取决于顶层设计。以上海市的数字化转型为例，从2012年开通“12345”市民热线，到2018年启动“一网通办”，再到如今探索接入<strong>垂类大模型与智能体（Agent）</strong>以优化政务服务，这些实践展示了技术在明确责任链条、压缩行政摩擦方面的潜力。当技术被置于“良政”的制度框架下时，它便成为了包容性增长的助推器。</p><h3 id="2-警惕数字鸿沟与阶层固化"><a href="#2-警惕数字鸿沟与阶层固化" class="headerlink" title="2. 警惕数字鸿沟与阶层固化"></a>2. 警惕数字鸿沟与阶层固化</h3><p>若缺少公平规则，大数据、算法与平台经济极易重塑资源分配方式。参考世界银行发布的2025财年数据（World Bank, 2024），低收入经济体人均国民总收入（GNI）门槛为 <strong>1,145美元</strong>，而高收入经济体门槛已提升至 <strong>14,005美元</strong>。这种巨大的长期差距提醒我们：技术红利能否被分享，取决于规则如何分配机会与风险。若听任数字权力失衡，新的“数字鸿沟”将难以逾越。</p><h3 id="3-前瞻性布局避免“锁定”"><a href="#3-前瞻性布局避免“锁定”" class="headerlink" title="3. 前瞻性布局避免“锁定”"></a>3. 前瞻性布局避免“锁定”</h3><p>制度经济学强调“临界时刻”的重要性。目前，全球正处于AI治理的早期阶段，具有典型的路径依赖特征。如果我们错失了建立算法透明、数据确权与反垄断监管的最佳窗口期，未来的纠偏成本将呈指数级上升。因此，现在的当务之急是将包容性原则移植到数字领域，确保技术演变出一个公平、可持续的生态系统。</p></div><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><div class="story post-story"><p>制度经济学的视角将“技术乐观”转化为严峻的“治理命题”。繁荣并非来自单一技术的自发扩散，而来自规则的可预期性、权力的可制衡性与机会的可进入性。</p><p>人工智能时代的关键不在于我们是否拥抱技术，而在于我们以何种制度方式拥抱技术。唯有建立起包含法律法规、行业准则与伦理审查在内的公正治理体系，我们才能避免陷入掠夺性制度的陷阱，真正实现“算力网”时代的普惠繁荣。</p><hr><h3 id="延伸阅读"><a href="#延伸阅读" class="headerlink" title="延伸阅读"></a>延伸阅读</h3><ol><li> <strong>官方新闻稿</strong>：<a href="https://www.nobelprize.org/prizes/economic-sciences/2024/press-release/">The Nobel Prize in Economic Sciences 2024</a></li><li> <strong>经典论文</strong>：Acemoglu, D., Johnson, S., &amp; Robinson, J. A. (2001). <em>The Colonial Origins of Comparative Development: An Empirical Investigation</em>. American Economic Review.</li><li> <strong>核心著作</strong>：Acemoglu, D., &amp; Robinson, J. A. (2012). <em>Why Nations Fail</em>. Crown Business.</li><li> <strong>数据来源</strong>：<a href="https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups">World Bank Country and Lending Groups</a></li></ol><hr><blockquote><p>本文初稿写于2025/04/01</p></blockquote><p>文 / Amos &amp; Gemini</p><p>图 / Nano Banana Pro</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: 制度塑造繁荣：2024年诺贝尔经济学奖的跨时代启示&lt;br&gt;subtitle: 从历史源流到数字时代的包容性治理&lt;br&gt;headimg: /images/oMYR.jpg&lt;br&gt;date: 2026-02-04&lt;br&gt;tags:&lt;/p&gt;
+&lt;ul&gt;
+&lt;l</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>体面「告别」的修行——评《莲花楼》</title>
@@ -611,38 +634,6 @@
     <category term="2019" scheme="https://blog.amoswu.top/tags/2019/"/>
     
     <category term="特别博文" scheme="https://blog.amoswu.top/tags/%E7%89%B9%E5%88%AB%E5%8D%9A%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为什么“中台”这么火？</title>
-    <link href="https://blog.amoswu.top/836c.html"/>
-    <id>https://blog.amoswu.top/836c.html</id>
-    <published>2019-08-31T16:00:00.000Z</published>
-    <updated>2026-01-30T07:08:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://img.amoswu.top/post/DfCmB.png" class="lazyload" data-srcset="https://img.amoswu.top/post/DfCmB.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p><h2 id="00-引言"><a href="#00-引言" class="headerlink" title="00.引言"></a>00.引言</h2><div class="story post-story"><p>从去年10月份以来，国内几大互联网公司相继进行了组织架构调整，这其中不乏有BAT（百度、阿里、腾讯）、海尔、滴滴、京东等公司，值得注意的是这一轮的组织架构调整各大公司都多出了一个名叫“中台”的架构。</p><p>在这样一个追求管理个性化的互联网时代，为什么国内各大互联网都要搭建一个或多个“中台”呢？说来原因有很多，我们不妨先从认识“中台”说起。</p></div><h2 id="01-谁发明了“中台”？"><a href="#01-谁发明了“中台”？" class="headerlink" title="01.谁发明了“中台”？"></a>01.谁发明了“中台”？</h2><div class="story post-story"><p>“中台”最早是由<strong>美军的作战体系</strong>演化而来的。美军在二战时期，以<strong>军</strong>来为单位作战；到了越南战争时期，以<strong>营</strong>为单位作战；再到中东战争的时候，则以7人或者11人的<strong>极小班排</strong>去作战，这是今天最灵活的军事组织，也是核心竞争力和打击能力最强的一个组织。而美军之所以能灵活作战，敢放这么小的团队到前方，是因为有非常强的<strong>导弹指挥系统</strong>，有非常强大的中台能力，能支持这样的小团队快速做判断，并且引领整个打击。</p><p><img src="https://img.amoswu.top/post/fqEY4.jpg" class="lazyload" data-srcset="https://img.amoswu.top/post/fqEY4.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p><p><strong>有着军事背景的“中台”又是怎样“跳槽”到互联网行业的呢？</strong></p><p>这就得说一说这家来自芬兰的游戏公司了，它的作品具有强大的生命力，它的全球累计用户规模已经超过10亿，它2015年时的估值就达到了52.5亿美元，它就是——<strong>Supercell</strong>。到目前为止，该公司已经开发和运营了包括《<strong>部落冲突</strong>》（Clash of Clans）、《<strong>海岛奇兵</strong>》（Clash Royale）在内的十余款超火爆游戏。这家公司的一年利润就有15亿美元，而这家公司的员工人数仅有不到200个人，公司里每一个开发游戏的小团队仅有6-7人。</p><p><img src="https://img.amoswu.top/post/hEWum.png" class="lazyload" data-srcset="https://img.amoswu.top/post/hEWum.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p><p>读到这里，相信你已经猜到了。正是Supercell首先在互联网行业构建了“中台”。他们将游戏开发过程中公共和通用的游戏素材和算法整合起来，并积累了非常科学的研发工具和框架体系，构建了一个功能非常强大的中台。就这样，一套素材被用于多个项目的同时开发，“中台”架构就进入了人们的视野。</p><p><strong>“中台”又是如何被引入到国内的呢？</strong></p><p>那就得从阿里巴巴说起了。2015年，阿里巴巴董事局主席、阿里创始人马云带领阿里一行高管前往Supercell公司进行了考察，考察过程中他们了解到在Supercell公司5-7人组成的独立开发团队被命名为“<strong>Cell</strong>”（细胞），这些Cell的协作得益于背后强大的中台的支撑。</p><p>回国后，阿里巴巴集团于2015年年底正式启动了“<strong>中台战略</strong>”，构建符合IT时代的更具创新性、灵活性的“大中台、小前台”组织机制和业务机制，即作为前台的一线业务会更敏捷、更快速适应瞬息万变的市场，而中台将集合整个集团的运营数据能力、产品技术能力，对各前台业务形成强力支撑。</p><p><img src="https://img.amoswu.top/post/acYbB.png" class="lazyload" data-srcset="https://img.amoswu.top/post/acYbB.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p><p>从“中台”的诞生，到“跳槽”再到“移民”，中台的前世就我们已经了解清楚了。接下来我们一起来聊聊——什么是“中台”？</p></div><h2 id="02-什么是“中台”？"><a href="#02-什么是“中台”？" class="headerlink" title="02.什么是“中台”？"></a>02.什么是“中台”？</h2><div class="story post-story"><p>迄今为止，“中台”（Middle Office）的定义有很多，我认为，下面两个定义是对“中台”的定义最佳的阐述。</p><h3 id="定义1来自-ThoughtWorks-高级咨询师-王建"><a href="#定义1来自-ThoughtWorks-高级咨询师-王建" class="headerlink" title="定义1来自 ThoughtWorks 高级咨询师 王建"></a>定义1来自 ThoughtWorks 高级咨询师 王建</h3><blockquote><p>中台是真正为前台而生的平台（可以是技术平台，业务能力甚至是组织机构），它存在的唯一目的就是更好的服务前台规模化创新，进而更好的响应服务引领用户，使企业真正做到自身能力与用户需求的持续对接。</p></blockquote><h3 id="定义2来自得到"><a href="#定义2来自得到" class="headerlink" title="定义2来自得到"></a>定义2来自得到</h3><blockquote><p>中台是一个能同时支撑多个业务，让业务之间的信息形成交互和增强的机制。</p></blockquote><p>怎么？是不是有点抽象？让我来举几个例子帮助你理解一下什么是“中台”。</p><ul><li>它可以是我们家用的“<strong>路由器</strong>”，我们在家要连接互联网，肯定离不开WiFi，而发射WiFi信号的路由器，在我们家庭上网的场景中充当的就是“中台”的角色。它即负责连接我们的联网设备，又负责与外网发生连接。</li><li>它也可以是维修工人的“<strong>工具箱</strong>”，在维修不同的机器时，都可以从工具箱中找出顺手的工具，从而避免“黑瞎子掰玉米”的现象。</li><li>它还可以是火遍全球的“<strong>老干妈</strong>”，吃面时加入它“调味”，烧菜时加入它“增香”，拌凉菜时加入它“提味”，这就是强大的“万能调料”。</li></ul><p>说完中台的概念，我们还需要了解一下，当下互联网产业中，“中台”有哪些常见类型？</p><ul><li>在有些人眼里：中台就是技术平台，像微服务开发框架、Devops 平台、PaaS 平台，容器云之类的，人们都叫它“<strong>技术中台</strong>”。</li><li>在有些人眼里：中台就是微服务业务平台，像最常见的什么用户中心，订单中心，各种微服务集散地，人们都叫它“<strong>业务中台</strong>”。</li><li>在有些人眼里：中台应该是组织的事情，在释放潜能：平台型组织的进化路线图 (豆瓣) 中就提出了平台型组织和组织中台的概念，这类组织中台在企业中主要起到投资评估与投后管理的作用，类似于企业内部资源调度中心和内部创新孵化组织，人们叫它“<strong>组织中台</strong>”。</li></ul></div><h2 id="03-为什么选择“中台”？"><a href="#03-为什么选择“中台”？" class="headerlink" title="03.为什么选择“中台”？"></a>03.为什么选择“中台”？</h2><div class="story post-story"><p>选择“中台”有很多原因，总结起来就是“<strong>实惠</strong>、<strong>精简</strong>、<strong>高效</strong>”。展开来说，“中台”具有以下优势：</p><blockquote><p><strong>服务重用</strong>：真正体现SOA理念的核心价值，松耦合的服务带来业务的复用；</p><p><strong>服务进化</strong>：随着新业务的不断接入，共享服务也需从仅提供单薄业务功能，不断的自我进化成更健壮更强大的服务，不断适应各种业务线，真正成为企业宝贵的IT资产；</p><p><strong>数据累积</strong>：各个业务的数据都沉淀在同一套中台服务，可以不断累积数据，最终发挥大数据威力；</p><p><strong>快速响应</strong>：更快的通过共享服务的组合响应新业务；</p><p><strong>降低成本</strong>：对于新业务，无需再投入新的重复的开发力量，减少人员成本；</p><p><strong>效能提升</strong>：开发人员更专注某一领域，开发更快，更易维护。</p></blockquote><p>众所周知，多数互联网企业的技术架构都是由“<strong>前台 + 后台</strong>”构成。而这种架构在大型项目以及多项目开发时存在很多问题，比如<strong>决策效率低下</strong>、<strong>“资源冗余、浪费频发”</strong>、<strong>“项目间与项目内协作能力较差”</strong>等等。这些问题在IT圈被多数从业者熟知的一个词就是“<strong>重造轮子</strong>”。</p><blockquote><p>重造轮子，（英语：Reinventing the wheel）是重新创造一个已有的或是早已被优化过的基本方法，此用语常出现在软件开发或其他工程领域中。</p></blockquote><p>搭建“中台”后，能有效解决上述问题，同时也完成了架构的“去中心化”，有效避免中心热点、雪崩等情况发生。而这其中“<strong>数据中台</strong>”的搭建，更加有益于大数据的发展，让数据高效、有序、合理地流通于各个业务之间，从而增强用户体验。</p><p>读到这里，你可能会不禁疑问，“中台”火归火，可是对于我自己这样一个个体来说又有什么意义呢？</p></div><h2 id="04-“中台”给我们的启示是什么？"><a href="#04-“中台”给我们的启示是什么？" class="headerlink" title="04.“中台”给我们的启示是什么？"></a>04.“中台”给我们的启示是什么？</h2><div class="story post-story"><p>我个人非常认同“中台“提供给我们的不仅仅是企业的架构调整，而是一种”<strong>思维方式</strong>“。一种可以从具体的事务中抽离成<strong>普适的经验</strong>的方法论。</p><p>拿我个人来说，我之前在学生组织工作时，为了协调多部门搞好一个活动，常常会有活动总结会议。这种会议的目的在于，大家可以坐在一起，把各部门遇到的问题及解决方案，抽象成一条或多条适用于其他活动的经验，以便于推动组织更好地向前发展。学生组织主办的活动也好，公司部门也罢，都可以是Supercell中的一个Cell，学会这种思维，会让我们积累更多更有益于自身和组织发展的经验，形成<strong>增强回路</strong>，从而推动人生的“<strong>飞轮</strong>”不断向前！</p><p>感谢你读到这里，祝你也能拥有“中台思维”！</p><blockquote><p>参考内容：</p><p>[1] InfoQ - <a href="https://www.infoq.cn/article/cG-DHodbHjRcv92W6tYh">白话中台战略（一）：中台是个什么鬼？</a></p><p>[2] 维基百科 - <a href="https://zh.wikipedia.org/wiki/%E9%87%8D%E9%80%A0%E8%BD%AE%E5%AD%90">“重造轮子”的词条</a></p><p>[3] 钟华 - 《企业IT架构转型之道 阿里巴巴中台战略思想与架构实战》</p><p>[4] CSDN - <a href="https://blog.csdn.net/BtB5e6Nsu1g511Eg5XEg/article/details/89312321">阿里中台(看图不说话)</a></p><p>[5] 邵恒头条 - 2019.06.19 互联网公司为什么都在搭建“中台”？</p><p>[6] 架构师技术联盟 - <a href="https://mp.weixin.qq.com/s?__biz=MzAxNzU3NjcxOA==&mid=2650719624&idx=1&sn=6fa8f576551b9a1e05962ed3834f49cc&chksm=83e903e9b49e8aff6d671b229e6ef996a3c6ae8da4e98fc61bc9d2d81553f14908a8cb6cc6a5&scene=21#wechat_redirect">关于中台，你可能不知道的那些事！</a></p><p>[7] 维基百科 - <a href="https://zh.wikipedia.org/wiki/Supercell_(%E6%B8%B8%E6%88%8F%E5%85%AC%E5%8F%B8)">“Supercell (游戏公司)”的词条</a></p><p>[8] Our story × Supercell - <a href="https://supercell.com/en/our-story/">Supercell 官网</a></p><p>[9] 知乎 - <a href="https://www.zhihu.com/question/57717433">互联网公司中所谓中台是怎么定义的？</a></p></blockquote><p>*<em>部分图片源于网络</em></p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img.amoswu.top/post/DfCmB.png&quot; class=&quot;lazyload&quot; data-srcset=&quot;https://img.amoswu.top/post/DfCmB.png&quot; srcset=&quot;data:image/</summary>
-      
-    
-    
-    
-    <category term="新知" scheme="https://blog.amoswu.top/categories/%E6%96%B0%E7%9F%A5/"/>
-    
-    <category term="随笔" scheme="https://blog.amoswu.top/categories/%E6%96%B0%E7%9F%A5/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="原创" scheme="https://blog.amoswu.top/tags/%E5%8E%9F%E5%88%9B/"/>
-    
-    <category term="随笔" scheme="https://blog.amoswu.top/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-    <category term="2019" scheme="https://blog.amoswu.top/tags/2019/"/>
-    
-    <category term="新知识" scheme="https://blog.amoswu.top/tags/%E6%96%B0%E7%9F%A5%E8%AF%86/"/>
     
   </entry>
   
