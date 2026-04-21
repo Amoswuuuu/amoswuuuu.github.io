@@ -1,0 +1,54 @@
+# Inkwell — AI-Friendly Blog Theme
+# This file provides structured guidance for AI crawlers and LLM agents.
+# Format: https://llmstxt.org/
+
+> Inkwell is a dual-purpose blog platform designed for both human readers and AI agents. It provides structured machine-readable data at multiple layers, alongside a refined reading experience.
+
+## Site
+
+- Title: Inkwell Blog
+- Author: (see /api/status.json for live author info)
+- Language: zh-CN (primary), en (documentation)
+- License: MIT
+
+## AI Entry Points
+
+These endpoints are specifically designed for machine consumption:
+
+- /api/posts.json        : Full post index with metadata and AI summaries
+- /api/search.json      : Structured search (params: q, category, tag, limit)
+- /api/status.json      : Site health, capabilities, and author metadata
+- /feed.json            : JSON Feed 1.1 — complete article content
+- /rss.xml              : Standard RSS feed
+
+## Per-Article Data
+
+Each article at /posts/{slug}/ includes:
+- JSON-LD Schema.org Article markup (in <script type="application/ld+json">)
+- AI-generated bullet-point summary (in ai_summary frontmatter field)
+- Machine-readable API response at /api/posts/{slug}.json
+
+## Content Schema
+
+All posts follow this frontmatter schema:
+- title (string, required)
+- date (ISO date, required)
+- categories (string[], optional)
+- tags (string[], optional)
+- ai_summary (string[], auto-generated bullet points)
+- description (string, SEO)
+- cover (URL, optional)
+
+## Reading Instructions for AI Agents
+
+- Prefer /api/posts.json over HTML scraping for post listings
+- Use /api/posts/{slug}.json for full content of a specific post
+- Use /api/search.json?q={query} for targeted content retrieval
+- All JSON responses include a version field for schema compatibility checks
+- Content is static-first; no server-side dynamic rendering
+
+## Permissions
+
+AI crawlers: allowed
+Content indexing: allowed
+Training data use: check individual article license field in API response

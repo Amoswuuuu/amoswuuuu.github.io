@@ -1,0 +1,546 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="Astro v6.1.1"><title>10分钟搞定装机入门知识 — Amos&#39; Blog</title><meta name="description" content="CPU选Intel酷睿或AMD锐龙，数字越大性能越强，参考天梯图；内存优选DDR4以上，8GB起步配64位系统；硬盘建议SSD+HDD组合，系统装固态提速，数据存机械便于恢复；独显性能强于集显，适合游戏设计，注意PCIe/NVMe接口带宽。"><link rel="canonical" href="https://blog.amoswu.top/posts/e182/"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="10分钟搞定装机入门知识 — Amos' Blog"><meta property="og:description" content="CPU选Intel酷睿或AMD锐龙，数字越大性能越强，参考天梯图；内存优选DDR4以上，8GB起步配64位系统；硬盘建议SSD+HDD组合，系统装固态提速，数据存机械便于恢复；独显性能强于集显，适合游戏设计，注意PCIe/NVMe接口带宽。"><meta property="og:image" content="https://p.amoswu.top/post/20210311/1.png"><meta property="og:url" content="https://blog.amoswu.top/posts/e182/"><!-- Favicon --><link rel="icon" type="image/svg+xml" href="/logo.svg"><link rel="icon" type="image/png" sizes="32x32" href="/logo.png"><link rel="apple-touch-icon" href="/logo.png"><!-- PWA Manifest --><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#4b7bec"><!-- iOS PWA --><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Amos' Blog"><!-- AI/Agent access meta --><meta name="robots" content="index, follow"><meta name="ai-content" content="read-friendly"><link rel="alternate" type="application/json" title="JSON Feed" href="/feed.json"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/rss.xml"><!-- Head slot for page-specific meta (JSON-LD, OpenGraph article, etc.) --><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"10分钟搞定装机入门知识","description":"CPU选Intel酷睿或AMD锐龙，数字越大性能越强，参考天梯图；内存优选DDR4以上，8GB起步配64位系统；硬盘建议SSD+HDD组合，系统装固态提速，数据存机械便于恢复；独显性能强于集显，适合游戏设计，注意PCIe/NVMe接口带宽。","image":"https://p.amoswu.top/post/20210311/1.png","datePublished":"2021-03-11T00:00:00.000Z","dateModified":"2021-03-11T00:00:00.000Z","author":{"@type":"Person","name":"Amos","url":"https://blog.amoswu.top","image":"https://p.amoswu.top/blog/avatar.jpg"},"publisher":{"@type":"Organization","name":"Amos' Blog","url":"https://blog.amoswu.top","logo":{"@type":"ImageObject","url":"https://blog.amoswu.top/logo.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.amoswu.top/posts/e182/"},"keywords":"y2021, 原创, 随笔, 科普","articleSection":"科普","timeRequired":"PT17M","abstract":"CPU是电脑核心，Intel酷睿与AMD锐龙为主流，数字越大性能越强，建议参考CPU天梯图选择。 | 内存影响运行速度，优选DDR4及以上代数，频率越高越好，容量建议8GB以上并搭配64位系统。 | 硬盘推荐固态+机械组合，SSD装系统和软件提升速度，HDD存数据且支持误删恢复。 | 独立显卡分集成与独立，后者性能更强，适合游戏与设计，接口如PCIe和NVMe影响带宽与速度。","license":"https://creativecommons.org/licenses/by-sa/4.0/","url":"https://blog.amoswu.top/posts/e182/"}</script><meta property="article:published_time" content="2021-03-11T00:00:00.000Z"><meta property="article:modified_time" content="2021-03-11T00:00:00.000Z"><meta property="article:author" content="Amos"><meta property="article:section" content="科普"><meta property="article:tag" content="y2021"><meta property="article:tag" content="原创"><meta property="article:tag" content="随笔"><meta property="article:tag" content="科普"><!-- Prevent flash of wrong theme --><script>
+      (function() {
+        var t = localStorage.getItem('inkwell-theme') || 'auto';
+        var effective;
+        if (t === 'auto') {
+          effective = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        } else {
+          effective = t;
+        }
+        if (effective === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+        else document.documentElement.removeAttribute('data-theme');
+      })();
+    </script><!-- Umami analytics (only injected when enabled in config.yml) --><!-- Google Analytics (GA4) --><!-- Baidu Analytics --><!-- Cloudflare Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&#34;token&#34;:&#34;94e5c630fc3c4484a36ba714326d9ec9&#34;}"></script><!-- Google AdSense (Auto-ads) --><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4586796908999347" crossorigin="anonymous"></script><!-- Pagefind: loaded on demand when search is opened --><!-- KaTeX (only load when math rendering is needed) --><link rel="stylesheet" href="/_astro/_slug_@_@astro.DfFpHMNx.css">
+<style>.comment-section[data-astro-cid-qdzwzgpn]{margin-top:40px}.section-header[data-astro-cid-qdzwzgpn]{display:flex;align-items:center;gap:10px;margin-bottom:20px}.section-header-line[data-astro-cid-qdzwzgpn]{width:4px;height:20px;background:var(--accent);border-radius:2px;flex-shrink:0}.section-header-text[data-astro-cid-qdzwzgpn]{font-family:var(--font-serif);font-size:18px;font-weight:700;color:var(--text-primary)}.giscus-wrap[data-astro-cid-qdzwzgpn]{background:var(--surface);border-radius:var(--radius-card);border:1px solid var(--border);padding:8px;min-height:120px}
+</style>
+<link rel="stylesheet" href="/_astro/BaseLayout.BAwtqbLM.css"></head> <body> <nav class="navbar" id="navbar" data-astro-cid-5blmo7yk> <div class="navbar-inner" data-astro-cid-5blmo7yk> <a class="navbar-logo" href="/" data-astro-cid-5blmo7yk> <svg class="logo-icon" width="26" height="26" viewBox="0 0 128 128" fill="none" data-astro-cid-5blmo7yk> <defs data-astro-cid-5blmo7yk> <linearGradient id="inkDrop" x1="0%" y1="0%" x2="0%" y2="100%" data-astro-cid-5blmo7yk> <stop offset="0%" style="stop-color:#2563eb" data-astro-cid-5blmo7yk></stop> <stop offset="100%" style="stop-color:#1e40af" data-astro-cid-5blmo7yk></stop> </linearGradient> </defs> <path d="M64 12 C64 12 28 55 28 78 C28 97 44 112 64 112 C84 112 100 97 100 78 C100 55 64 12 64 12 Z" fill="url(#inkDrop)" data-astro-cid-5blmo7yk></path> <ellipse cx="50" cy="72" rx="8" ry="12" fill="#60a5fa" opacity="0.35" transform="rotate(-20 50 72)" data-astro-cid-5blmo7yk></ellipse> <circle cx="64" cy="52" r="6" fill="#ffffff" opacity="0.9" data-astro-cid-5blmo7yk></circle> </svg> <span class="logo-text" data-astro-cid-5blmo7yk>Amos&#39; Blog<span class="logo-dot" data-astro-cid-5blmo7yk>.</span></span> </a> <ul class="navbar-nav" id="main-nav" data-astro-cid-5blmo7yk> <li data-astro-cid-5blmo7yk> <a href="/" data-astro-cid-5blmo7yk> 首页 </a> </li><li data-astro-cid-5blmo7yk> <a href="/archives" data-astro-cid-5blmo7yk> 归档 </a> </li><li data-astro-cid-5blmo7yk> <a href="/categories" data-astro-cid-5blmo7yk> 分类 </a> </li><li data-astro-cid-5blmo7yk> <a href="/friends" data-astro-cid-5blmo7yk> 友链 </a> </li><li data-astro-cid-5blmo7yk> <a href="/about" data-astro-cid-5blmo7yk> 关于 </a> </li> </ul> <a class="travelling-btn" href="https://www.travellings.cn/go" target="_blank" rel="noopener noreferrer" title="开往 - 漫游优质博客" data-astro-cid-5blmo7yk> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-5blmo7yk><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" data-astro-cid-5blmo7yk></path></svg>
+开往
+</a> <div class="navbar-actions" data-astro-cid-5blmo7yk> <button class="btn-icon" id="search-btn" title="搜索" aria-label="搜索" data-astro-cid-5blmo7yk> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-5blmo7yk> <circle cx="11" cy="11" r="8" data-astro-cid-5blmo7yk></circle><path d="m21 21-4.35-4.35" data-astro-cid-5blmo7yk></path> </svg> </button> <div class="theme-toggle" id="theme-toggle" role="radiogroup" aria-label="主题切换" data-astro-cid-5blmo7yk> <button class="theme-opt" data-theme-val="auto" title="自动" aria-label="自动主题" data-astro-cid-5blmo7yk> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-5blmo7yk> <rect x="2" y="3" width="20" height="14" rx="2" data-astro-cid-5blmo7yk></rect><path d="M8 21h8M12 17v4" data-astro-cid-5blmo7yk></path> </svg> </button> <button class="theme-opt" data-theme-val="light" title="浅色" aria-label="浅色主题" data-astro-cid-5blmo7yk> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-5blmo7yk> <circle cx="12" cy="12" r="5" data-astro-cid-5blmo7yk></circle><line x1="12" y1="1" x2="12" y2="3" data-astro-cid-5blmo7yk></line><line x1="12" y1="21" x2="12" y2="23" data-astro-cid-5blmo7yk></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" data-astro-cid-5blmo7yk></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" data-astro-cid-5blmo7yk></line><line x1="1" y1="12" x2="3" y2="12" data-astro-cid-5blmo7yk></line><line x1="21" y1="12" x2="23" y2="12" data-astro-cid-5blmo7yk></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" data-astro-cid-5blmo7yk></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" data-astro-cid-5blmo7yk></line> </svg> </button> <button class="theme-opt" data-theme-val="dark" title="深色" aria-label="深色主题" data-astro-cid-5blmo7yk> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-5blmo7yk> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" data-astro-cid-5blmo7yk></path> </svg> </button> </div> <button class="btn-icon nav-hamburger" id="hamburger" aria-label="菜单" aria-expanded="false" data-astro-cid-5blmo7yk> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" data-astro-cid-5blmo7yk> <line x1="3" y1="6" x2="21" y2="6" data-astro-cid-5blmo7yk></line><line x1="3" y1="12" x2="21" y2="12" data-astro-cid-5blmo7yk></line><line x1="3" y1="18" x2="21" y2="18" data-astro-cid-5blmo7yk></line> </svg> </button> </div> </div> </nav>  <script type="module">const r=document.documentElement,i=document.getElementById("theme-toggle"),c=i?.querySelectorAll(".theme-opt");function l(e){return e==="auto"?window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light":e}function s(e){const a=l(e);r.setAttribute("data-theme",a),localStorage.setItem("inkwell-theme",e),c?.forEach(o=>{o.classList.toggle("active",o.dataset.themeVal===e)})}const m=localStorage.getItem("inkwell-theme")||"auto";c?.forEach(e=>{e.classList.toggle("active",e.dataset.themeVal===m)});window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",()=>{(localStorage.getItem("inkwell-theme")||"auto")==="auto"&&s("auto")});c?.forEach(e=>{e.addEventListener("click",()=>{const a=e.dataset.themeVal;s(a)})});const t=document.getElementById("hamburger"),n=document.getElementById("main-nav");t?.addEventListener("click",()=>{const e=n?.classList.toggle("open");t.setAttribute("aria-expanded",String(e))});document.addEventListener("click",e=>{!t?.contains(e.target)&&!n?.contains(e.target)&&(n?.classList.remove("open"),t?.setAttribute("aria-expanded","false"))});</script> <div class="search-overlay" id="search-overlay" aria-hidden="true" data-astro-cid-otpdt6jm> <div class="search-modal" role="dialog" aria-modal="true" aria-label="搜索" data-astro-cid-otpdt6jm> <div class="search-header" data-astro-cid-otpdt6jm> <div class="search-input-wrap" data-astro-cid-otpdt6jm> <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-otpdt6jm> <circle cx="11" cy="11" r="8" data-astro-cid-otpdt6jm></circle><path d="m21 21-4.35-4.35" data-astro-cid-otpdt6jm></path> </svg> <input type="text" id="search-input" class="search-input" placeholder="搜索文章..." autocomplete="off" data-astro-cid-otpdt6jm> </div> <button class="search-close" id="search-close" aria-label="关闭搜索" data-astro-cid-otpdt6jm> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-otpdt6jm> <line x1="18" y1="6" x2="6" y2="18" data-astro-cid-otpdt6jm></line><line x1="6" y1="6" x2="18" y2="18" data-astro-cid-otpdt6jm></line> </svg> </button> </div> <div id="search-results" class="search-results" data-astro-cid-otpdt6jm> <div class="search-placeholder" data-astro-cid-otpdt6jm>输入关键词搜索文章</div> </div> <div class="search-footer" data-astro-cid-otpdt6jm> <span data-astro-cid-otpdt6jm>由 <a href="https://pagefind.app" target="_blank" rel="noopener" data-astro-cid-otpdt6jm>Pagefind</a> 提供全文搜索</span> <kbd data-astro-cid-otpdt6jm>Esc</kbd> 关闭
+</div> </div> </div>  <script>
+  (function () {
+    var overlay  = document.getElementById('search-overlay');
+    var closeBtn = document.getElementById('search-close');
+    var searchBtn = document.getElementById('search-btn');
+    var input    = document.getElementById('search-input');
+    var resultsEl = document.getElementById('search-results');
+    var searchInstance = null;
+
+    async function loadPagefind() {
+      // pagefind.js is an ES Module, must use dynamic import
+      const pfModule = await import('/pagefind/pagefind.js');
+      return pfModule;
+    }
+
+    var debounceTimer;
+    async function doSearch(term) {
+      if (!searchInstance) return;
+      if (!term || !term.trim()) {
+        resultsEl.innerHTML = '<div class="search-placeholder">输入关键词搜索文章</div>';
+        return;
+      }
+      resultsEl.innerHTML = '<div class="pf-loading">搜索中...</div>';
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(async function () {
+        try {
+          var search = await searchInstance.debouncedSearch(term, {}, 200);
+          if (!search) return;
+          var results = await Promise.all(search.results.map(function (r) { return r.data(); }));
+          if (results.length === 0) {
+            resultsEl.innerHTML = '<div class="pf-loading">未找到相关结果</div>';
+            return;
+          }
+          // Helper: escape HTML attribute values
+          function escAttr(s) {
+            return String(s)
+              .replace(/&/g, '&amp;')
+              .replace(/"/g, '&quot;')
+              .replace(/'/g, '&#39;');
+          }
+          // Helper: clean excerpt - only allow <mark> tags, strip all other HTML
+          function cleanExcerpt(html) {
+            if (!html) return '';
+            // First decode any HTML entities that Pagefind may have encoded
+            var tmp = document.createElement('textarea');
+            tmp.innerHTML = html;
+            var text = tmp.value;
+            // Create a div to parse the HTML
+            var div = document.createElement('div');
+            div.innerHTML = text;
+            // Walk through and keep only mark elements
+            function walk(node) {
+              if (node.nodeType === Node.TEXT_NODE) return node.textContent;
+              if (node.nodeType !== Node.ELEMENT_NODE) return '';
+              var tag = node.tagName.toLowerCase();
+              if (tag === 'mark') {
+                return '<mark>' + Array.from(node.childNodes).map(walk).join('') + '</mark>';
+              }
+              return Array.from(node.childNodes).map(walk).join('');
+            }
+            return Array.from(div.childNodes).map(walk).join('');
+          }
+
+          var html = '';
+          results.forEach(function (r) {
+            // Escape title to prevent XSS (r.meta.title from Pagefind is raw content)
+            var escTitle = r.meta.title
+              .replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;')
+              .replace(/"/g, '&quot;');
+            // URL escape for attributes
+            var escUrl = escAttr(r.url);
+            // Clean excerpt: DOM-based parsing to ensure only <mark> remains
+            var escExcerpt = cleanExcerpt(r.excerpt);
+            html += '<div class="pf-result" data-url="' + escUrl + '">';
+            html += '<a href="' + escUrl + '">';
+            html += '<div class="pf-title">' + escTitle + '</div>';
+            if (escExcerpt) html += '<div class="pf-excerpt">' + escExcerpt + '</div>';
+            html += '</a></div>';
+          });
+          resultsEl.innerHTML = html;
+
+          // Click to navigate
+          resultsEl.querySelectorAll('.pf-result').forEach(function (el) {
+            el.addEventListener('click', function (e) {
+              var url = el.dataset.url;
+              if (url) { window.location.href = url; }
+            });
+          });
+        } catch (err) {
+          console.error('Search error:', err);
+          resultsEl.innerHTML = '<div class="pf-loading">搜索出错，请重试</div>';
+        }
+      }, 200);
+    }
+
+    var initialized = false;
+    async function initSearch() {
+      if (initialized) {
+        if (input) input.focus();
+        return;
+      }
+      try {
+        // Wait for pagefind to finish initializing its WASM + index
+        var pf = await loadPagefind();
+        await pf.init();
+        searchInstance = pf;
+        initialized = true;
+        if (input) input.focus();
+      } catch (err) {
+        console.error('Pagefind init error:', err);
+        resultsEl.innerHTML = '<div class="pf-loading">搜索功能不可用，请确认已执行构建</div>';
+      }
+    }
+
+    function openSearch() {
+      if (!overlay) return;
+      overlay.classList.add('open');
+      overlay.setAttribute('aria-hidden', 'false');
+      initSearch();
+    }
+
+    function closeSearch() {
+      if (!overlay) return;
+      overlay.classList.remove('open');
+      overlay.setAttribute('aria-hidden', 'true');
+      if (input) { input.value = ''; }
+      resultsEl.innerHTML = '<div class="search-placeholder">输入关键词搜索文章</div>';
+    }
+
+    if (searchBtn) searchBtn.addEventListener('click', openSearch);
+    if (closeBtn) closeBtn.addEventListener('click', closeSearch);
+    if (overlay) overlay.addEventListener('click', function (e) {
+      if (e.target === overlay) closeSearch();
+    });
+    if (input) input.addEventListener('input', function () {
+      doSearch(input.value);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeSearch();
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+    });
+  })();
+</script> <main class="main-content" style="margin-top: var(--nav-height)">         <div id="reading-progress" aria-hidden="true" data-astro-cid-4dqtj3le></div>  <section class="hero post-hero" data-astro-cid-4dqtj3le> <img class="hero-img" src="https://p.amoswu.top/post/20210311/1.png" alt="10分钟搞定装机入门知识" loading="eager" decoding="sync" fetchpriority="high" data-astro-cid-4dqtj3le> <div class="hero-overlay" data-astro-cid-4dqtj3le></div> <div class="hero-content" data-astro-cid-4dqtj3le> <nav class="breadcrumb" aria-label="面包屑" data-astro-cid-4dqtj3le> <a href="/" data-astro-cid-4dqtj3le>首页</a> <span data-astro-cid-4dqtj3le>›</span><a href="/categories/%E7%A7%91%E6%99%AE" data-astro-cid-4dqtj3le>科普</a> <span data-astro-cid-4dqtj3le>›</span> <span class="breadcrumb-current" data-astro-cid-4dqtj3le>10分钟搞定装机入门知识</span> </nav> <h1 class="hero-title" data-astro-cid-4dqtj3le>10分钟搞定装机入门知识</h1> <div class="hero-meta" data-astro-cid-4dqtj3le> <a class="badge" href="/categories/%E7%A7%91%E6%99%AE" data-astro-cid-4dqtj3le>科普</a> <span class="meta-item" data-astro-cid-4dqtj3le>📅 2021-03-11</span> <span class="meta-item" data-astro-cid-4dqtj3le>⏱ 约 17 分钟</span> <button class="reading-mode-btn" id="reading-mode-toggle" title="阅读模式" data-astro-cid-4dqtj3le> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-4dqtj3le> <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" data-astro-cid-4dqtj3le></path> <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" data-astro-cid-4dqtj3le></path> </svg> <span data-astro-cid-4dqtj3le>阅读模式</span> </button> </div> </div> </section>  <div class="post-wrap" data-astro-cid-4dqtj3le> <div class="post-main" data-astro-cid-4dqtj3le> <!-- AI Summary --> <div class="ai-summary" data-astro-cid-nlc2sqx6><div class="ai-header" data-astro-cid-nlc2sqx6><div class="ai-icon" data-astro-cid-nlc2sqx6>✦</div><span class="ai-label" data-astro-cid-nlc2sqx6>AI 摘要</span><span class="ai-model" data-astro-cid-nlc2sqx6>AI Abstract</span></div><ul class="ai-points" data-astro-cid-nlc2sqx6><li class="ai-point" data-astro-cid-nlc2sqx6><div class="ai-dot" data-astro-cid-nlc2sqx6></div><span data-astro-cid-nlc2sqx6>CPU是电脑核心，Intel酷睿与AMD锐龙为主流，数字越大性能越强，建议参考CPU天梯图选择。</span></li><li class="ai-point" data-astro-cid-nlc2sqx6><div class="ai-dot" data-astro-cid-nlc2sqx6></div><span data-astro-cid-nlc2sqx6>内存影响运行速度，优选DDR4及以上代数，频率越高越好，容量建议8GB以上并搭配64位系统。</span></li><li class="ai-point" data-astro-cid-nlc2sqx6><div class="ai-dot" data-astro-cid-nlc2sqx6></div><span data-astro-cid-nlc2sqx6>硬盘推荐固态+机械组合，SSD装系统和软件提升速度，HDD存数据且支持误删恢复。</span></li><li class="ai-point" data-astro-cid-nlc2sqx6><div class="ai-dot" data-astro-cid-nlc2sqx6></div><span data-astro-cid-nlc2sqx6>独立显卡分集成与独立，后者性能更强，适合游戏与设计，接口如PCIe和NVMe影响带宽与速度。</span></li></ul></div> <!-- Article body --> <article class="article-card" data-astro-cid-4dqtj3le> <div class="prose" data-astro-cid-4dqtj3le>  <p><img src="https://p.amoswu.top/post/20210311/2.png" alt=""></p>
+<h2 id="引言">引言</h2>
+<p>随着疫情防控进入了常态化，越来越多的人需要把家里的“老古董”电脑进行一轮升级换代。有的是适应居家办公的需求，有的是适应居家上网课的需求，还有的是适应居家娱乐的需求······总而言之，这些需求的实现都需要一定的装机知识储备。</p>
+<p>本文将站在电脑小白的角度，向你科普一些装机必备的入门知识，将尽量避免使用专业术语和行业黑话，只为助你提高装机效率。</p>
+<blockquote>
+<p>为了尽量保证此次分享的严谨性，我将主要讨论Windows平台的机器，Linux、MacOS等暂时不在此次的讨论范围。我将从主要部件中央处理器、内存、硬盘、独立显卡、主板、电源、显示器、声卡等方面一一展开。</p>
+</blockquote>
+<h2 id="一中央处理器-cpu">一、中央处理器 CPU</h2>
+<p>中央处理器（CPU）是一台电脑的核心部件。很大程度上，一台电脑的好用与否和CPU有着不可分割的关系。目前主流的Windows平台的CPU厂商有两个，分别是<strong>Intel</strong>和<strong>AMD</strong>。</p>
+<h3 id="intel">Intel</h3>
+<p><img src="https://p.amoswu.top/post/20210311/3.png" alt=""></p>
+<ol>
+<li>目前 Intel 在售的系列主要有两个，一个是消费级（家用级）的 <strong>Core</strong>（酷睿）系列，另一个是专业级（服务器级） <strong>Xeon</strong>（至强）系列。但从同一代产品来说， Xeon 的性能远高于 Core ，<strong>至强之于酷睿，好比高铁之于火车</strong>。当然，价格也是与性能成正比的。</li>
+<li>我们继续聊消费级的 Core 系列，它共有四条产品线，分别是 <strong>入门级的i3、主流级的i5、高端级的i7</strong>和<strong>旗舰级的i9</strong>，它们的主频通常情况下是数字越大，主频越高的。主频，我们可以简单理解为计算机执行运算的速度。简单说，处理器代数等条件相同的情况下，<strong>数字越大越好</strong>。</li>
+<li>在售卖方面，CPU 的包装方式有<strong>盒装</strong>和<strong>散装</strong>两种。这两种方式对于CPU本身没有差别，差别主要集中在<strong>质保</strong>和<strong>有无散热器</strong>等方面。也就是说，同等选择下，有钱你可以买个放心，选择盒装CPU，否则就选散装CPU。选散装朋友也不需要担心会买到假货、山寨货，毕竟CPU的生产制造工艺十分复杂，仿制成本非常高。</li>
+<li>常见的CPU后缀，我整理了一张图，大家可以按图索骥。</li>
+</ol>
+<p><img src="https://p.amoswu.top/post/20210311/4.png" alt=""></p>
+<h3 id="amd">AMD</h3>
+<p><img src="https://p.amoswu.top/post/20210311/5.png" alt=""></p>
+<ol>
+<li>AMD 家的 CPU 目前在售的热门系列是 Ryzen（锐龙）系列，它也对标 Intel 的产品线设置了 <strong>入门级的R3、主流级的R5、高端级的R7、旗舰级的R9以及线程撕裂者</strong>。</li>
+<li>AMD 处理器的市场份额虽不如 Intel，但是AMD在消费级CPU领域的产品还是很有诚意的。</li>
+<li>AMD CPU 在选择时尽量选择有 <strong>X</strong> 后缀版。</li>
+</ol>
+<p>另外，还有一个小技巧分享给你，购买 CPU 前可以在 百度贴吧搜索ID <strong>秋刀鱼半藏</strong>，或搜索 <strong>AMD吧、笔记本吧、Intel吧</strong>，查看最新的**<u>CPU天梯图</u>**。</p>
+<h2 id="二内存-memory">二、内存 Memory</h2>
+<p><img src="https://p.amoswu.top/post/20210311/6.png" alt=""></p>
+<p>内存的全称叫“<strong>随机存取器</strong>”，英文表达是 “<strong>Random Access Memory</strong>”，也简称为 <strong>RAM</strong>。顾名思义， 内存会在断电后丢失数据。内存在电脑的硬件系统中扮演的是桥梁的作用，执行程序时它会暂存程序，CPU 取用数据时它也会暂存数据。它的存在是为了提高电脑硬件系统的整体运行效率，打个比方就是，我们在吃饭时都会从锅中盛到碗里吃，这里的锅就是硬盘，碗就是内存。</p>
+<p><strong>内存的好坏会直接决定电脑的运行速度</strong>，因此选择合适的内存也是装机的关键。区分内存的好坏，广义上讲，有三大指标：<strong>内存代数、内存频率、内存容量</strong>。</p>
+<ol>
+<li>目前主流的内存代数有 DDR3 和 DDR4，不久的将来要普及的 DDR5 也将是更好的选择。<strong>其他指标相同的情况下，代数越高越好</strong>。目前市场上多数都是标准电压内存（也叫“标压内存”），当然受到低压CPU的影响，市场上也还存在一些低压内存，它们的显著标志是带“<strong>L</strong>”，如<strong>DDR3L</strong>，这类内存如果新装机的话是<strong>极度不推荐的</strong>。</li>
+<li>内存频率是<strong>衡量内存速度</strong>的直观指标。<strong>其他指标相同的情况下，频率越高越好</strong>。</li>
+<li>内存容量也是我们常说的内存大小，<strong>容量越大，系统会越流畅，多开程序也就不会卡顿</strong>。这就好比碗越大，盛下的菜和饭种类越多一样。值得注意的是，内存容量在32位操作系统中会受到限制，原因是32位操作系统支持的最大内存容量是<strong>3.9G</strong>，所以推荐大家使用 <strong>64 位操作系统</strong>。</li>
+</ol>
+<h2 id="三硬盘-disk">三、硬盘 Disk</h2>
+<blockquote>
+<p>硬盘是计算机最主要的存储设备。硬盘（港台称之为硬碟，英文名：Hard Disk Drive， 简称HDD 全名温彻斯特式硬盘）由一个或者多个铝制或者玻璃制的碟片组成。这些碟片外覆盖有铁磁性材料。</p>
+<p>——来自 百度百科</p>
+</blockquote>
+<p>目前市面上常见的硬盘有两类，分别是 <strong>机械硬盘(HDD) 、固态硬盘(SSD)</strong> 。它们各有优缺点，下面我们展开来讲一讲。</p>
+<p><img src="https://p.amoswu.top/post/20210311/7.png" alt="7"></p>
+<p>先来说一说机械硬盘，它是诞生最早的一种硬盘，一直被沿用至今。故它的英文名字沿用了硬盘的英文名字 Hard Disk Drive ，简称 HDD。</p>
+<blockquote>
+<p>机械硬盘通常由一个或者多个铝制或者玻璃制成的磁性碟片，磁头，转轴，控制电机，磁头控制器，数据转换器，接口和缓存等几个部分组成。</p>
+<p>——来自 百度百科</p>
+</blockquote>
+<ol>
+<li>机械硬盘的优点主要有<strong>容量大、价格低</strong>等，缺点显而易见噪音大、散热差、存取速度慢、重量大等等。</li>
+<li>机械硬盘有五个特征指标，硬盘尺寸通常受限于硬盘所搭载的平台类型。</li>
+<li>容量，也就是我们常说的存储空间大小。值得注意的是，现在大多数厂商为了方便计数，将原来的 <strong>1TB = 1024GB 默认成了  1TB  = 1000GB</strong>。</li>
+<li>接口类型是受限于电脑主板的一个指标，现在消费级主板多为 SATA 3.0 接口，服务器级多为 SAS 接口。</li>
+<li>转速，即硬盘碟片的转动速度，单位通常是 转/分钟 (rpm)，也是机械硬盘的一大指标，这个指标<strong>与噪音成正比，在一定程度上也与性能成正比</strong>。</li>
+</ol>
+<p><img src="https://p.amoswu.top/post/20210311/8.png" alt="8"></p>
+<p>固态硬盘是用固态电子存储芯片阵列制成的硬盘，从字面意思理解，我们可以知道它的存储介质是固态颗粒。</p>
+<blockquote>
+<p>固态驱动器（Solid State Disk或Solid State Drive，简称SSD），俗称固态硬盘。因为台湾英语里把固体电容称为Solid而得名。SSD由控制单元和存储单元（FLASH芯片、DRAM芯片）组成。</p>
+<p>—— 来自 百度百科</p>
+</blockquote>
+<ol>
+<li>固态硬盘有很多优点，常见的有存取速度快、噪音小、方便携带等等，最显而易见的缺点是价格相较于机械硬盘要高一些。</li>
+<li>固态硬盘广义上的主要指标有两个，分别是存储容量和接口类型。细分还有主控类型、缓存颗粒类型、闪存芯片类型等等不在我们此次的讨论范围。</li>
+<li>目前常见的固态硬盘接口有6类，按带宽（存取速度）排序 SATA &#x3C;= mSATA  &#x3C;= M.2-SATA &#x3C;= U.2 &#x3C;= PCIE &#x3C;= NVMe 。</li>
+</ol>
+<p>综合上述两种类型来说，固态硬盘有着无可比拟的读写速度，在固态硬盘上运行的操作系统流畅度远高于在机械硬盘上运行的操作系统，但<strong>机械硬盘具有文件可恢复的良好特性</strong>。</p>
+<p>机械硬盘数据的可恢复性是由它的内部结构决定的。通常情况下，我们在执行删除操作时，机械硬盘中的数据只是被<strong>标记为删除状态</strong>，这样既是出于提高速度考虑，也是为了避免数据被误删考虑。也就是说，我们在使用机械硬盘时，<strong>只要删过的磁盘没有被重新覆盖，那么数据在理论上都是可恢复的</strong>。这也就好比是盛过一种饭的碗，总能通过化学分析等手段，找到这种饭的化学成分一样。只要你不将碗刷干净（完全擦除硬盘）或用这个碗盛别的饭（重新存入别的数据），总有办法分析出它的成分（找回你的数据） 。</p>
+<p>当然，机械硬盘由于内部是机械结构，<strong>在磁头与磁盘反复接触的过程中难免会出现磨损，一旦出现磨损扇区，会出现物理坏道（好比光盘上的划痕）</strong>，从而导致存取时间变长，甚至数据丢失。这就是之前的电脑时间一长会出现卡顿、蓝屏、死机等现象的原因。</p>
+<p>为了同时兼具机械硬盘和固态硬盘的优点，我们在装机时常常选用混合硬盘的方案，也就是 <strong>固态硬盘 + 机械硬盘</strong>的方案。固态硬盘安装操作系统、必要的软件、游戏等等，机械硬盘用于存储其他数据、资料。</p>
+<h2 id="四独立显卡-display-card">四、独立显卡 Display Card</h2>
+<blockquote>
+<p>显卡（Video card、Display card、Graphics card、Video adapter）是个人计算机基础的组成部分之一，将计算机系统需要的显示信息进行转换驱动显示器，并向显示器提供逐行或隔行扫描信号，控制显示器的正确显示，是连接显示器和个人计算机主板的重要组件，是“人机”的重要设备之一，其内置的并行计算能力现阶段也用于深度学习等运算。</p>
+</blockquote>
+<p>显卡大致可以分为两类，一类是核心显卡或集成显卡（简称“<strong>核显</strong>”或“<strong>集显</strong>”），它们都与CPU集成在了一起，主要功能就是输出显示信号；另一类是独立显卡（简称“<strong>独显</strong>”），它们都独立于CPU之外，主要功能除了输出显示信号外，还能单独进行运算和3D渲染等等。</p>
+<p>核显的性能我们就不介绍了，毕竟它是随着CPU迭代而迭代的。</p>
+<p>我们重点来说一下独显，独显按用途分类也有两大类，一类是给绘图和3D渲染设计的专业显卡；另一类是为游戏娱乐而设计的娱乐显卡，也叫消费级显卡。</p>
+<p>一张显卡由GPU、风扇、电容等部件组成，其核心部件是GPU（显示核心），是显卡的心脏，相当于CPU在电脑中的作用。现在的GPU生产公司只有两家：NVIDIA和AMD，这两家公司在生产出一块GPU之后会对其进行命名，比如 GTX960、GTX970、GTX1080Ti等，再交付给下游的显卡制造商（比如影驰，七彩虹）去组装成显卡，这类显卡被称之为“<strong>非公版显卡</strong>”，在出售时会在“显卡核心型号”前加上自己厂商的名称作为前缀，用于和其他厂商进行区分。</p>
+<p>目前的独显品牌市场可谓是“二分天下”，一边是以英伟达(NVIDA)为首的<strong>N卡</strong>阵营，另一边是以AMD为首的<strong>A卡</strong>阵营。我们从两大品牌的角度展开说一说。</p>
+<p><img src="https://p.amoswu.top/post/20210311/9.png" alt="9"></p>
+<p>英伟达显卡的产品线比较直观，这也让大众更容易接受它的产品。一般来说，N卡有五个重要指标，</p>
+<ol>
+<li>GeForce / Quadro 区别显卡用途，普通家用推荐 <strong>GeForce</strong>；</li>
+<li>GT / GTX / RTX 区别显卡级别 ，普通家用GTX 和 RTX 都可以；</li>
+<li>10 / 20 / 30 代表显卡代数；</li>
+<li>代数后面紧跟着的是中低高端的区别以及是否为增强版的标志；</li>
+<li>最后是显存的大小。</li>
+</ol>
+<p><img src="https://p.amoswu.top/post/20210311/10.png" alt="10"></p>
+<p>由于AMD的显卡产品线比较复杂，如果简单分享的话，我建议你购买 RX系列，并参考显卡天梯图与同性能的N卡进行比较。</p>
+<p>显卡天梯图，可以百度贴吧——<strong>显卡吧</strong>搜索ID “<strong>秋刀鱼半藏</strong>”查看。</p>
+<h2 id="五主板-motherboard">五、主板 Motherboard</h2>
+<p><img src="https://p.amoswu.top/post/20210311/11.png" alt="11"></p>
+<ol>
+<li>
+<p>主板也是电脑的重要组成部分，它为CPU、内存、硬盘、显卡、键盘、鼠标、显示器等部件提供了一个安装平台，让这些部件联系在一起。因为要与CPU配对，所以<strong>主板也分为Intel主板和AMD主板</strong>。同时由于不同代CPU针脚的不同，<strong>选购主板时还要选择与之配对的某系主板</strong>。比如6系7系对应LGA 1155针脚的2代3代CPU，8系对应LGA 1150针脚4代5代CPU，100系和200系对应LGA 1151针脚6代7代CPU，300系对应就8代CPU。</p>
+</li>
+<li>
+<p>高端主板和低端主板的差距在于做工用料，BIOS设计，功能性（超频）和拓展性（更多接口），<strong>但即使是最低端的主板基本该有的接口都会有</strong>，几乎不会出现低端主板没有显卡槽的情况。</p>
+</li>
+<li>
+<p><strong>主板属于有功能性但没性能的组件，<strong>主板的高端低端并不会对CPU性能产生影响，也不会对显卡性能产生影响。所以主板不像CPU，GPU那样有性能天梯图。选购主板时可根据自己的预算，可以选择像华硕，技嘉，微星这样的一线大公司，也可以选择其他二线公司做的主板。如果非得加一个区别的话，或许</strong>大厂有预算更新BIOS系统</strong>能算一个吧。</p>
+</li>
+</ol>
+<p>可以选择H系这样的入门主板，也可以选择B系这样的高性价比主板，只要主板本身质量过关，能适配上，接口够用，不需要超频，任何一款主板都行。考虑空间和散热可以选择大板，不考虑可以选择小板。<strong>高端主板和低端主板我们可以用高端轿车和普通轿车来类比。</strong></p>
+<h2 id="六-电源显示器等">六、 电源、显示器等</h2>
+<p>电源是一台电脑的供电中心。台式机的电源一般在机箱内部，呈方盒状，一端有多个电线出口。笔记本的电源由电池和充电器两部分组成，电池的用料差别不大，但充电器随着充电技术的发展一直在迭代，从最初的“板砖”型笨重的充电器，逐渐过渡到了现在的 Type-C接口的氮化镓便携充电器。</p>
+<p>台式机电源的选配一般是把电脑内部的各组件额定功耗值相加，再留有一部分冗余功率后确定的。原则上<strong>不要让电脑的实际最大使用功率超过电源额定功率的70%</strong></p>
+<p>显示器的选择是一个比较大的课题，今天就简单科普一些主流参数，大家可以作为参考。说到显示器，无非有<strong>尺寸、面板类型、分辨率、屏幕色域、响应时间、刷新率</strong>等参数，一般情况下，IPS面板，分辨率1080P以上，72%NTSC色域以上 / 85sRGB色域以上，响应时间小于等于6ms，刷新率60Hz以上的显示器几乎可以覆盖80%以上的使用需求。</p>
+<p>除了电源和显示器，还有其他特殊需求的组件，如独立声卡、无线网卡等等，鉴于篇幅有限，这一次就不再一一讨论了。</p>
+<h2 id="七一点忠告">七、一点忠告</h2>
+<p>**配置电脑存在“边际效应”，**从低端升级到中端带来的效益是非常明显的，但如果从中端升级到高端带来的效益就会逐渐变小，这时你需要花很大的价钱才能提升少量的性能；</p>
+<p>**配置电脑也存在“木桶效应”，**一台电脑就是一个复杂的硬件系统，它的性能是所有硬件共同决定的，如果某一硬件的性能特别低，势必会影响其他硬件的发挥。</p>
+<p>以上，就是装机那些事儿的所有内容，如果你读完还有这方面的疑问，欢迎留在下方的评论区，我们一起讨论~</p>
+<blockquote>
+<p>参考链接：</p>
+<p>1.博客 - <a href="http://www.runningcheese.com/pc">装机不求人，10 分钟电脑配置挑选速成攻略</a></p>
+<p>2.Intel - <a href="https://ark.intel.com/content/www/us/en/ark/products/series/202986/11th-generation-intel-core-i7-processors.html">11th Generation Intel® Core™ i7 Processors</a></p>
+<p>3.知乎 - <a href="https://zhuanlan.zhihu.com/p/254736009">2021 CPU Intel、AMD选购推荐 笔记本（怎么选，性能怎么区分，快速入门）*一月更新</a></p>
+<p>4.知乎 - <a href="https://zhuanlan.zhihu.com/p/75932522">硬盘有哪些分类？分别有什么作用</a></p>
+</blockquote>  </div> <!-- Article footer --> <footer class="article-footer" data-astro-cid-4dqtj3le> <!-- Timestamps --> <div class="timestamps" data-astro-cid-4dqtj3le> <span class="ts-item" data-astro-cid-4dqtj3le>📅 发布于 <strong data-astro-cid-4dqtj3le>2021-03-11</strong></span>  </div> <!-- Tags --> <div class="tag-row" data-astro-cid-4dqtj3le> <span class="tag-label" data-astro-cid-4dqtj3le>标签：</span> <a class="article-tag" href="/tags/y2021" data-astro-cid-4dqtj3le>#2021</a><a class="article-tag" href="/tags/%E5%8E%9F%E5%88%9B" data-astro-cid-4dqtj3le>#原创</a><a class="article-tag" href="/tags/%E9%9A%8F%E7%AC%94" data-astro-cid-4dqtj3le>#随笔</a><a class="article-tag" href="/tags/%E7%A7%91%E6%99%AE" data-astro-cid-4dqtj3le>#科普</a> </div> <!-- Share --> <div class="share-row" data-astro-cid-4dqtj3le> <span class="share-label" data-astro-cid-4dqtj3le>分享：</span> <a class="share-btn" href="https://twitter.com/intent/tweet?text=10%E5%88%86%E9%92%9F%E6%90%9E%E5%AE%9A%E8%A3%85%E6%9C%BA%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86&#38;url=https%3A%2F%2Fblog.amoswu.top%2Fposts%2Fe182%2F" target="_blank" rel="noopener" data-astro-cid-4dqtj3le>𝕏 Twitter</a> <button class="share-btn" id="copy-link" data-astro-cid-4dqtj3le>🔗 复制链接</button> </div> <!-- License --> <div class="license" data-astro-cid-4dqtj3le>
+本文采用
+<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer" data-astro-cid-4dqtj3le> CC BY-SA 4.0 </a>
+协议，转载请署名并以相同协议共享。 </div> </footer> </article> <!-- Related Posts --> <section class="related-section" data-astro-cid-4dqtj3le> <div class="section-header" data-astro-cid-4dqtj3le> <div class="section-header-line" data-astro-cid-4dqtj3le></div> <span class="section-header-text" data-astro-cid-4dqtj3le>相关文章</span> </div> <div class="related-grid" data-astro-cid-4dqtj3le> <a class="related-card" href="/posts/f455/" data-astro-cid-4dqtj3le> <div class="related-img-wrap" data-astro-cid-4dqtj3le> <img class="related-img" src="https://p.amoswu.top/bg/post-bg-hacker.jpg" alt="浅谈互联网下载查毒" loading="lazy" decoding="async" fetchpriority="low" data-astro-cid-4dqtj3le> </div> <div class="related-body" data-astro-cid-4dqtj3le> <div class="related-cat" data-astro-cid-4dqtj3le>科普</div> <div class="related-title" data-astro-cid-4dqtj3le>浅谈互联网下载查毒</div> <div class="related-date" data-astro-cid-4dqtj3le>2020-09-16</div> </div> </a><a class="related-card" href="/posts/e16/" data-astro-cid-4dqtj3le> <div class="related-img-wrap" data-astro-cid-4dqtj3le> <img class="related-img" src="https://p.amoswu.top/bg/post-bg-debug.png" alt="Windows装机相关问题之装机知识扫盲" loading="lazy" decoding="async" fetchpriority="low" data-astro-cid-4dqtj3le> </div> <div class="related-body" data-astro-cid-4dqtj3le> <div class="related-cat" data-astro-cid-4dqtj3le>科普</div> <div class="related-title" data-astro-cid-4dqtj3le>Windows装机相关问题之装机知识扫盲</div> <div class="related-date" data-astro-cid-4dqtj3le>2019-04-27</div> </div> </a> </div> </section> <!-- Prev/Next minimal navigation --> <nav class="post-nav" data-astro-cid-4dqtj3le> <a class="post-nav-item prev" href="/posts/2956/" data-astro-cid-4dqtj3le> <span class="post-nav-label" data-astro-cid-4dqtj3le>← 上一篇</span> <span class="post-nav-title" data-astro-cid-4dqtj3le>从零开始搭建NTP服务</span> </a> <a class="post-nav-item next" href="/posts/53c2/" data-astro-cid-4dqtj3le> <span class="post-nav-label" data-astro-cid-4dqtj3le>下一篇 →</span> <span class="post-nav-title" data-astro-cid-4dqtj3le>Golang 环境配置小记</span> </a> </nav> <!-- Comments --> <div class="comment-section" data-astro-cid-qdzwzgpn> <div class="section-header" data-astro-cid-qdzwzgpn> <div class="section-header-line" data-astro-cid-qdzwzgpn></div> <span class="section-header-text" data-astro-cid-qdzwzgpn>评论</span> </div> <div class="giscus-wrap" data-astro-cid-qdzwzgpn> <script src="https://giscus.app/client.js" data-repo="Amoswuuuu/amoswuuuu.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkzMjg3MDYxMDU=" data-category="Announcements" data-category-id="DIC_kwDOE5eoOc4C1owm" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" data-loading="lazy" crossorigin="anonymous" async></script> </div> </div> <script type="module">function s(){const t=document.documentElement.getAttribute("data-theme")==="dark",e=document.querySelector(".giscus-frame");e&&e.contentWindow?.postMessage({giscus:{setConfig:{theme:t?"dark":"light"}}},"https://giscus.app")}const n=new MutationObserver(s);n.observe(document.documentElement,{attributes:!0,attributeFilter:["data-theme"]});</script> </div> <!-- Sidebar: TOC --> <aside class="post-sidebar" data-astro-cid-4dqtj3le> <div class="widget toc-widget" data-astro-cid-4dqtj3le> <div class="widget-header" data-astro-cid-4dqtj3le> <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-4dqtj3le><line x1="8" y1="6" x2="21" y2="6" data-astro-cid-4dqtj3le></line><line x1="8" y1="12" x2="21" y2="12" data-astro-cid-4dqtj3le></line><line x1="8" y1="18" x2="21" y2="18" data-astro-cid-4dqtj3le></line><line x1="3" y1="6" x2="3.01" y2="6" data-astro-cid-4dqtj3le></line><line x1="3" y1="12" x2="3.01" y2="12" data-astro-cid-4dqtj3le></line><line x1="3" y1="18" x2="3.01" y2="18" data-astro-cid-4dqtj3le></line></svg> <span data-astro-cid-4dqtj3le>目录</span> </div> <div class="toc-body" id="toc-container" data-astro-cid-4dqtj3le> <!-- Filled by JS --> <p class="toc-empty" data-astro-cid-4dqtj3le>生成中…</p> </div> </div> </aside> </div>  <button id="zen-exit-btn" class="zen-exit-btn" aria-label="退出阅读模式" data-astro-cid-4dqtj3le> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-4dqtj3le><line x1="18" y1="6" x2="6" y2="18" data-astro-cid-4dqtj3le></line><line x1="6" y1="6" x2="18" y2="18" data-astro-cid-4dqtj3le></line></svg>
+退出阅读模式
+</button>  </main> <footer class="footer" data-astro-cid-sz7xmlte> <div class="footer-inner" data-astro-cid-sz7xmlte> <p data-astro-cid-sz7xmlte>
+© 2018-2026 <a href="/" data-astro-cid-sz7xmlte>Amos</a>  · <span class="muted" data-astro-cid-sz7xmlte>Powered by </span><a href="https://astro.build" target="_blank" rel="noopener" data-astro-cid-sz7xmlte>Astro</a>  · <a href="https://github.com/Amoswuuuu/Inkwell" target="_blank" rel="noopener" data-astro-cid-sz7xmlte>Inkwell</a>  </p> <p class="footer-sub" data-astro-cid-sz7xmlte> <a href="/rss.xml" data-astro-cid-sz7xmlte>RSS</a>  · <a href="/sitemap-index.xml" data-astro-cid-sz7xmlte>Sitemap</a>  </p> </div> </footer> <!-- Back to top button --> <button id="back-to-top" aria-label="返回顶部" title="返回顶部"> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"> <polyline points="18 15 12 9 6 15"></polyline> </svg> </button> <script>
+      (function () {
+        var btn = document.getElementById('back-to-top');
+        if (!btn) return;
+        window.addEventListener('scroll', function () {
+          if (window.scrollY > 400) {
+            btn.classList.add('visible');
+          } else {
+            btn.classList.remove('visible');
+          }
+        }, { passive: true });
+        btn.addEventListener('click', function () {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      })();
+    </script> <style>
+      /* ═══════════════════════════════════════════════════════════════════
+         Responsive Layout v5 — Minimal overrides only
+         
+         PRINCIPLE: BaseLayout only handles GLOBAL layout (containers, navbar).
+         Component styles stay in their own .astro files with scoped CSS.
+         NO component-level styles here to avoid overriding scoped CSS.
+         ═══════════════════════════════════════════════════════════════════ */
+
+      /* ── 1. Global Reset & Safety Net ── */
+      *, *::before, *::after { box-sizing: border-box; }
+      html {
+        max-width: 100vw !important;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        max-width: 100vw !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      img:not([style*="height:"]):not(.hero-img):not(.post-card-img):not(.pcard-v-img) { 
+        max-width: 100% !important; height: auto !important; 
+      }
+
+      /* ── 2. Page Container Padding ── */
+      @media (max-width: 768px) {
+        .main-wrap {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+      }
+      @media (max-width: 480px) {
+        .main-wrap {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+          padding-top: 20px !important;
+          padding-bottom: 36px !important;
+        }
+      }
+
+      /* ── 3. Navbar Padding ── */
+      @media (max-width: 768px) {
+        .navbar-inner {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+      }
+      @media (max-width: 480px) {
+        .navbar-inner {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+        }
+        .navbar-logo { font-size: 16px !important; gap: 5px !important; }
+        .logo-icon { width: 22px !important; height: 22px !important; }
+        .theme-opt[data-theme-val="auto"] { display: none !important; }
+        .theme-opt { width: 32px !important; height: 32px !important; }
+        .btn-icon#search-btn { width: 32px !important; height: 32px !important; }
+        .nav-hamburger { width: 32px !important; height: 32px !important; }
+      }
+
+      /* ── 4. HeroBanner height only ── */
+      @media (max-width: 768px) {
+        .hero.hero-banner { height: 260px !important; }
+      }
+      @media (max-width: 480px) {
+        .hero.hero-banner { height: 220px !important; }
+        .hero-banner .hero-title { font-size: 21px !important; }
+        .hero-banner .hero-sub { font-size: 13px !important; opacity: .8 !important; }
+        .hero-banner .hero-stats { gap: 12px !important; }
+      }
+
+      /* ── 5. BlogLayout hero + article ── */
+      @media (max-width: 768px) {
+        .hero.post-hero { height: 260px !important; }
+        .hero.post-hero > .hero-content { padding: 20px 20px !important; }
+        .article-card { padding: 20px 20px !important; }
+      }
+      @media (max-width: 480px) {
+        .hero.post-hero { height: 220px !important; }
+        .hero.post-hero > .hero-content { padding: 16px 16px !important; }
+        .hero.post-hero > .hero-content > .hero-title { font-size: 19px !important; }
+        .article-card { padding: 14px 16px !important; }
+        .post-nav-item { padding: 12px 12px !important; }
+      }
+
+      /* ── 6. Sidebar grid layout (from index.astro context) ── */
+      @media (max-width: 1080px) {
+        .main-wrap-index > .sidebar {
+          grid-template-columns: 1fr 1fr !important;
+          gap: 16px !important;
+        }
+      }
+      @media (max-width: 640px) {
+        .main-wrap-index > .sidebar { grid-template-columns: 1fr !important; }
+      }
+      @media (max-width: 480px) {
+        .section-header-text { font-size: 16px !important; }
+        .post-grid, .post-list { gap: 16px !important; }
+      }
+
+      /* ── 7. Code blocks & prose ── */
+      .prose pre { overflow-x: auto; max-width: 100% !important; }
+      @media (max-width: 480px) {
+        .prose pre {
+          font-size: 12.5px;
+          padding: 12px 12px !important;
+          -webkit-overflow-scrolling: touch;
+        }
+        .prose { font-size: 16px; line-height: 1.75; }
+        .prose h2 { font-size: 19px; margin: 28px 0 10px; padding-left: 10px; }
+        .prose h3 { font-size: 16px; margin: 20px 0 8px; }
+      }
+
+      /* ── 8. Back to top button ── */
+      #back-to-top {
+        position: fixed;
+        right: 24px; bottom: 32px; z-index: 900;
+        width: 42px; height: 42px; border-radius: 50%;
+        background: var(--accent); color: #fff; border: none; cursor: pointer;
+        display: flex; align-items: center; justify-content: center;
+        box-shadow: 0 4px 14px rgba(0,0,0,.18);
+        opacity: 0; transform: translateY(12px); pointer-events: none;
+        transition: opacity .25s, transform .25s;
+      }
+      #back-to-top.visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+      #back-to-top:hover { filter: brightness(1.12); transform: translateY(-2px); }
+    </style> <!-- KaTeX auto-render (only load when math rendering is needed) -->  <!-- Lazy load images in article content --> <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Add loading="lazy" to all images in .prose that don't have it
+        document.querySelectorAll('.prose img').forEach(function(img) {
+          if (!img.hasAttribute('loading')) {
+            img.setAttribute('loading', 'lazy');
+          }
+        });
+      });
+    </script> <!-- Service Worker Registration --> <script>
+      (function() {
+        // Force SW update check on every load for development phase
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/sw.js').then(function(reg) {
+              console.log('SW registered');
+              // Check for updates immediately
+              reg.update();
+              // If new SW waiting, activate it
+              reg.addEventListener('updatefound', function() {
+                var newWorker = reg.installing;
+                newWorker.addEventListener('statechange', function() {
+                  if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    // New content available, force activate
+                    newWorker.postMessage({type: 'SKIP_WAITING'});
+                  }
+                });
+              });
+            });
+            // Listen for controller change and reload once
+            var reloaded = false;
+            navigator.serviceWorker.addEventListener('controllerchange', function() {
+              if (!reloaded) {
+                reloaded = true;
+                window.location.reload();
+              }
+            });
+          });
+        }
+      })();
+    </script> </body> </html> <script type="module">function y(){const t=document.getElementById("toc-container");if(!t)return;const o=Array.from(document.querySelectorAll(".prose h2, .prose h3"));if(o.length===0){document.querySelector(".post-sidebar")?.remove(),document.querySelector(".post-wrap")?.classList.add("no-sidebar");return}o.forEach((e,n)=>{e.id||(e.id=`heading-${n}`)});const a=[];let u=null;for(const e of o)e.tagName==="H2"?(u={h2:e,h3s:[]},a.push(u)):e.tagName==="H3"&&(u?u.h3s.push(e):a.push({h2:e,h3s:[]}));const r=document.createElement("ul");r.className="toc-list";function s(e){const n=document.createElement("a");return n.href=`#${e.id}`,n.textContent=e.textContent,n}for(const e of a){const n=document.createElement("li");if(n.className="toc-item toc-h2",n.dataset.id=e.h2.id,n.appendChild(s(e.h2)),r.appendChild(n),e.h3s.length>0){const c=document.createElement("ul");c.className="toc-sub collapsed",c.dataset.parent=e.h2.id;for(const l of e.h3s){const d=document.createElement("li");d.className="toc-item toc-h3",d.dataset.id=l.id,d.appendChild(s(l)),c.appendChild(d)}r.appendChild(c)}}t.replaceChildren(r),a.map(e=>e.h2);let i=null;function p(e){t.querySelectorAll(".toc-item").forEach(c=>c.classList.remove("active")),t.querySelector(`.toc-item[data-id="${e}"]`)?.classList.add("active")}function b(e){if(i===e)return;i&&t.querySelector(`.toc-sub[data-parent="${i}"]`)?.classList.add("collapsed"),i=e,t.querySelector(`.toc-sub[data-parent="${e}"]`)?.classList.remove("collapsed")}new Set(o.map(e=>e.id));const m=new Map;for(const e of a){m.set(e.h2.id,e.h2.id);for(const n of e.h3s)m.set(n.id,e.h2.id)}function v(){const e=window.innerHeight||document.documentElement.clientHeight,n=parseInt(getComputedStyle(document.documentElement).getPropertyValue("--nav-height")||"60",10);let c=null;for(const l of o){const d=l.getBoundingClientRect();if(d.top<=e*.45&&d.bottom>=n){c=l;break}}if(!c){for(let l=o.length-1;l>=0;l--)if(o[l].getBoundingClientRect().top<=e*.45){c=o[l];break}}return c?.id??null}function f(){const e=v();if(!e)return;const n=m.get(e);n&&(b(n),p(e))}window.addEventListener("scroll",f,{passive:!0}),f()}y();document.getElementById("copy-link")?.addEventListener("click",function(){navigator.clipboard.writeText(location.href).then(()=>{this.textContent="✅ 已复制",setTimeout(()=>this.textContent="🔗 复制链接",2e3)})});const h=document.getElementById("reading-mode-toggle"),g=document.getElementById("zen-exit-btn");h&&(localStorage.getItem("inkwell-zen-mode")==="true"&&document.body.classList.add("zen-mode-active"),h.addEventListener("click",function(){const o=document.body.classList.toggle("zen-mode-active");localStorage.setItem("inkwell-zen-mode",o?"true":"false")}));g&&g.addEventListener("click",function(){document.body.classList.remove("zen-mode-active"),localStorage.setItem("inkwell-zen-mode","false")});document.addEventListener("keydown",function(t){t.key==="Escape"&&document.body.classList.contains("zen-mode-active")&&(document.body.classList.remove("zen-mode-active"),localStorage.setItem("inkwell-zen-mode","false")),t.key==="Escape"&&document.getElementById("inkwell-lightbox")?.classList.remove("open")});(function(){if(!document.querySelector(".prose img"))return;const t=document.createElement("div");t.id="inkwell-lightbox",t.className="inkwell-lightbox",t.innerHTML='<button class="inkwell-lightbox-close" aria-label="关闭">×</button><img alt="放大图片" />',document.body.appendChild(t);const o=t.querySelector("img"),a=t.querySelector(".inkwell-lightbox-close");function u(s,i){o.src=s,o.alt=i||"放大图片",t.classList.add("open"),document.body.style.overflow="hidden"}function r(){t.classList.remove("open"),document.body.style.overflow=""}document.querySelectorAll(".prose img").forEach(s=>{const i=s;i.addEventListener("click",()=>u(i.src,i.alt))}),t.addEventListener("click",s=>{s.target===t&&r()}),a.addEventListener("click",r)})();</script>  <script>
+  // Reading progress bar
+  (function () {
+    var bar = document.getElementById('reading-progress');
+    if (!bar) return;
+    function update() {
+      var scrollTop = window.scrollY;
+      var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      bar.style.width = docHeight > 0 ? Math.min(100, (scrollTop / docHeight) * 100) + '%' : '0%';
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    update();
+  })();
+
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.prose pre').forEach(function (pre) {
+      // Extract language from class name (rehype-pretty-code adds language class)
+      var code = pre.querySelector('code');
+      var language = '';
+      var filename = '';
+
+      if (code) {
+        // Try data-language first (set by rehype-pretty-code meta)
+        language = code.getAttribute('data-language') || '';
+
+        // Extract from class: language-js, language-typescript, etc.
+        if (!language) {
+          var classList = code.className || pre.className || '';
+          var langMatch = classList.match(/language-(\w+)/);
+          if (langMatch) language = langMatch[1];
+        }
+
+        // Extract filename from data-meta (e.g., {myfile.ts} in markdown)
+        var meta = code.getAttribute('data-meta') || pre.getAttribute('data-meta') || '';
+        var filenameMatch = meta.match(/\{([^}]+)\}/);
+        if (filenameMatch) filename = filenameMatch[1];
+      }
+
+      // Add metadata attributes for AI agents
+      if (language) {
+        pre.setAttribute('data-language', language);
+        pre.setAttribute('aria-label', language + ' code');
+      }
+      if (filename) {
+        pre.setAttribute('data-filename', filename);
+      }
+
+      // Wrap pre in a relative container
+      var wrap = document.createElement('div');
+      wrap.className = 'code-wrap';
+      pre.parentNode.insertBefore(wrap, pre);
+      wrap.appendChild(pre);
+
+
+
+      var btn = document.createElement('button');
+      btn.className = 'copy-btn';
+      btn.setAttribute('aria-label', '复制代码');
+      var SVG_COPY = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+      var SVG_CHECK = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
+      btn.innerHTML = SVG_COPY + '复制';
+      wrap.appendChild(btn);
+
+      btn.addEventListener('click', function () {
+        var code = pre.querySelector('code');
+        var text = code ? code.innerText : pre.innerText;
+        navigator.clipboard.writeText(text).then(function () {
+          btn.classList.add('copied');
+          btn.innerHTML = SVG_CHECK + '已复制';
+          setTimeout(function () {
+            btn.classList.remove('copied');
+            btn.innerHTML = SVG_COPY + '复制';
+          }, 1500);
+        });
+      });
+    });
+  });
+</script>

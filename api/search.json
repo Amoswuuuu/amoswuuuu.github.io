@@ -1,0 +1,270 @@
+{
+  "version": "1.0",
+  "schema": "https://blog.amoswu.top/api/search.json",
+  "q": null,
+  "category": null,
+  "tag": null,
+  "total": 23,
+  "returned": 10,
+  "limit": 10,
+  "posts": [
+    {
+      "slug": "b24a",
+      "title": "制度塑造繁荣：2024年诺贝尔经济学奖的跨时代启示",
+      "description": "2024年诺贝尔经济学奖授予阿西莫格鲁、约翰逊与罗宾逊，揭示制度对国家繁荣的决定性作用：包容性制度促进增长，掠夺性制度导致停滞；在算力革命时代，需通过算法透明、数据确权与反垄断构建包容性治理体系，防止技术加剧不平等与制度锁定。",
+      "date": "2026-02-04T00:00:00.000Z",
+      "categories": [
+        "经济学"
+      ],
+      "tags": [
+        "经济学",
+        "诺贝尔奖",
+        "制度分析",
+        "人工智能",
+        "数字治理",
+        "y2025"
+      ],
+      "cover": "https://p.amoswu.top/post/oMYR.jpg",
+      "readingTime": 8,
+      "aiSummary": [
+        "2024年诺贝尔经济学奖授予阿西莫格鲁、约翰逊与罗宾逊，表彰其揭示制度对国家繁荣的决定性作用。",
+        "研究指出包容性制度促进广泛参与与增长，而掠夺性制度导致资源集中与停滞，形成路径依赖。",
+        "在算力革命时代，技术本身不保证公平，需通过制度设计防止算法加剧不平等与数字鸿沟。",
+        "构建数字时代的包容性治理体系，需强化算法透明、数据确权与反垄断，避免制度锁定风险。"
+      ],
+      "url": "https://blog.amoswu.top/posts/b24a/",
+      "apiUrl": "https://blog.amoswu.top/api/posts/b24a.json",
+      "matchType": "all"
+    },
+    {
+      "slug": "419d",
+      "title": "体面「告别」的修行——评《莲花楼》",
+      "description": "《莲花楼》以“后武侠”视角讲述英雄落幕后的平凡自洽，通过众生“爱而不得”的情感困境与环环相扣的案件，揭示人性执念，最终以李莲花的放下与原谅，诠释看清真相后仍尊严退场的最高级英雄主义。",
+      "date": "2026-01-30T12:00:00.000Z",
+      "categories": [
+        "影视评论"
+      ],
+      "tags": [
+        "莲花楼",
+        "剧评",
+        "y2026"
+      ],
+      "cover": "https://p.amoswu.top/post/8gSR.webp",
+      "readingTime": 3,
+      "aiSummary": [
+        "《莲花楼》以“后武侠”视角聚焦英雄落幕后的平凡自洽，展现从巅峰跌落后与自我和解的深刻主题。",
+        "剧中众生‘爱而不得’的情感困境，映射现实人生中告别的常态，赋予江湖故事真实而残缺的质感。",
+        "叙事结构严谨，案件环环相扣，层层剥笋揭示人性执念，最终收束于十年前阴谋的闭环。",
+        "李莲花以放下与原谅践行体面告别，诠释最高级英雄主义：看清生活真相后仍选择尊严退场。"
+      ],
+      "url": "https://blog.amoswu.top/posts/419d/",
+      "apiUrl": "https://blog.amoswu.top/api/posts/419d.json",
+      "matchType": "all"
+    },
+    {
+      "slug": "83e2",
+      "title": "简明 Book Searcher 使用教程",
+      "description": "Book Searcher 是基于 Anna's Archive 的开源工具，支持通过 IPFS 搜索 Z-Library 资源，用户可配置 cloudflare-ipfs.com 等网关或备用节点，配合检测工具确保稳定访问，并提供多入口选择以优化体验。",
+      "date": "2023-02-25T00:00:00.000Z",
+      "categories": [
+        "教程"
+      ],
+      "tags": [
+        "y2023",
+        "原创",
+        "教程"
+      ],
+      "cover": null,
+      "readingTime": 3,
+      "aiSummary": [
+        "Book Searcher 是基于 Anna's Archive 数据库的开源项目，支持通过 IPFS 搜索并获取 Z…",
+        "使用 Book Searcher 需配置 IPFS 网关（如 cloudflare-ipfs.com），以访问去中心化…",
+        "支持多个备用网关和检测工具，确保在部分网关失效时仍能稳定访问资源。",
+        "提供多个可用网址入口，用户可灵活选择访问节点提升使用体验。"
+      ],
+      "url": "https://blog.amoswu.top/posts/83e2/",
+      "apiUrl": "https://blog.amoswu.top/api/posts/83e2.json",
+      "matchType": "all"
+    },
+    {
+      "slug": "73a3",
+      "title": "免费正版图书期刊阅读方法分享",
+      "description": "博看书苑收录4000余种期刊、3万余册图书，涵盖党政、文学、科技等领域，支持PC、APP及微信小程序多端阅读。用户注册后输入机构授权码（如浙江图书馆zjlib、武汉大学whu）即可免费使用，搜索“博看 site:edu.cn”可快速获取高校授权码，畅享正版资源。",
+      "date": "2022-06-23T16:00:00.000Z",
+      "categories": [
+        "教程"
+      ],
+      "tags": [
+        "y2022",
+        "原创",
+        "教程"
+      ],
+      "cover": "https://p.amoswu.top/post/npa5M.png",
+      "readingTime": 4,
+      "aiSummary": [
+        "博看书苑收录4000多种期刊和30000多册图书，覆盖党政、文学、科技等多领域，支持多端阅读。",
+        "用户可通过PC、APP、微信小程序访问，注册后输入机构授权码即可免费使用。",
+        "授权码可通过各省市级图书馆或高校图书馆获取，如浙江图书馆为zjlib，武汉大学为whu。",
+        "搜索'博看 site:edu.cn'可快速查找高校授权码，实现免费正版资源获取。"
+      ],
+      "url": "https://blog.amoswu.top/posts/73a3/",
+      "apiUrl": "https://blog.amoswu.top/api/posts/73a3.json",
+      "matchType": "all"
+    },
+    {
+      "slug": "3ed5",
+      "title": "Qt程序中优雅的打包方案",
+      "description": "使用Qt内置工具windeployqt.exe可一键自动部署程序，只需准备Release版exe及依赖文件（路径不含中文），在对应编译器控制台运行命令即可自动复制所需dll等依赖库，简化打包流程。",
+      "date": "2021-03-30T16:00:00.000Z",
+      "categories": [
+        "随笔"
+      ],
+      "tags": [
+        "y2021",
+        "原创",
+        "Qt",
+        "随笔"
+      ],
+      "cover": "https://p.amoswu.top/post/LFS8v.png",
+      "readingTime": 11,
+      "aiSummary": [
+        "Qt程序打包可通过内置工具windeployqt.exe实现一键自动化部署",
+        "使用windeployqt前需准备Release版exe及依赖文件，并确保路径不含中文",
+        "通过Qt对应编译器控制台运行windeployqt命令，自动复制所需dll等依赖库"
+      ],
+      "url": "https://blog.amoswu.top/posts/3ed5/",
+      "apiUrl": "https://blog.amoswu.top/api/posts/3ed5.json",
+      "matchType": "all"
+    },
+    {
+      "slug": "f624",
+      "title": "Qt程序中优雅的日志方案",
+      "description": "Easylogging++ 是 Qt C++ 中轻量高效的日志方案，媲美 Loguru，支持 QString 等数据类型，通过 *.pro 文件宏配置快速集成，结合 LOG(INFO) 实现多环境分级输出，涵盖时间、级别、内容等核心要素。",
+      "date": "2021-03-30T16:00:00.000Z",
+      "categories": [
+        "随笔"
+      ],
+      "tags": [
+        "y2021",
+        "原创",
+        "Qt",
+        "随笔"
+      ],
+      "cover": "https://p.amoswu.top/post/cPuSU.png",
+      "readingTime": 10,
+      "aiSummary": [
+        "Easylogging++ 是 Qt C++ 中媲美 Loguru 的优雅日志方案，轻量、高效且高度可配置。",
+        "日志核心要素包括时间、位置、级别、内容、唯一标识和格式化，需根据用途合理设计。",
+        "Easylogging++ 支持 Qt 数据类型（如 QString、QList 等），配置简单，适合多环境分级输出。",
+        "通过 *.pro 文件定义宏启用 Qt 支持，结合 LOG(INFO) 语法即可快速集成到项目中。"
+      ],
+      "url": "https://blog.amoswu.top/posts/f624/",
+      "apiUrl": "https://blog.amoswu.top/api/posts/f624.json",
+      "matchType": "all"
+    },
+    {
+      "slug": "2956",
+      "title": "从零开始搭建NTP服务",
+      "description": "NTP协议实现高精度时间同步，局域网误差小于1ms，广域网约几十毫秒；Windows自2000内置W32Time服务，Win10/Server 2016精度达1ms，可通过注册表或Internet时间设置同步NTP服务器，Ubuntu则使用ntpdate命令校准时间。",
+      "date": "2021-03-24T00:00:00.000Z",
+      "categories": [
+        "教程"
+      ],
+      "tags": [
+        "y2021",
+        "原创",
+        "教程"
+      ],
+      "cover": "https://p.amoswu.top/bg/post-w-ntp.png",
+      "readingTime": 7,
+      "aiSummary": [
+        "NTP协议可实现计算机高精度时间同步，局域网误差小于1ms，广域网为几十毫秒。",
+        "Windows系统自2000起内置W32Time服务，支持与NTP服务器同步，Win10/Server 2016可达1…",
+        "通过修改注册表Config和NtpServer路径下的AnnounceFlags与Enabled值，可启用Window…",
+        "Windows可通过Internet时间设置同步NTP服务器，Ubuntu使用ntpdate命令实现时间校准。"
+      ],
+      "url": "https://blog.amoswu.top/posts/2956/",
+      "apiUrl": "https://blog.amoswu.top/api/posts/2956.json",
+      "matchType": "all"
+    },
+    {
+      "slug": "e182",
+      "title": "10分钟搞定装机入门知识",
+      "description": "CPU选Intel酷睿或AMD锐龙，数字越大性能越强，参考天梯图；内存优选DDR4以上，8GB起步配64位系统；硬盘建议SSD+HDD组合，系统装固态提速，数据存机械便于恢复；独显性能强于集显，适合游戏设计，注意PCIe/NVMe接口带宽。",
+      "date": "2021-03-11T00:00:00.000Z",
+      "categories": [
+        "科普"
+      ],
+      "tags": [
+        "y2021",
+        "原创",
+        "随笔",
+        "科普"
+      ],
+      "cover": "https://p.amoswu.top/post/20210311/1.png",
+      "readingTime": 17,
+      "aiSummary": [
+        "CPU是电脑核心，Intel酷睿与AMD锐龙为主流，数字越大性能越强，建议参考CPU天梯图选择。",
+        "内存影响运行速度，优选DDR4及以上代数，频率越高越好，容量建议8GB以上并搭配64位系统。",
+        "硬盘推荐固态+机械组合，SSD装系统和软件提升速度，HDD存数据且支持误删恢复。",
+        "独立显卡分集成与独立，后者性能更强，适合游戏与设计，接口如PCIe和NVMe影响带宽与速度。"
+      ],
+      "url": "https://blog.amoswu.top/posts/e182/",
+      "apiUrl": "https://blog.amoswu.top/api/posts/e182.json",
+      "matchType": "all"
+    },
+    {
+      "slug": "53c2",
+      "title": "Golang 环境配置小记",
+      "description": "Golang安装简单，通过.msi包安装后验证`go version`，需手动配置GOROOT、GOPATH、GOBIN及Path，添加Go的bin目录；配置阿里云等国内镜像源加速依赖下载，使用`go env -w GOPROXY`命令；GoLand中需正确设置GOROOT和GOPATH，并关闭GO111MODULE以兼容GOPATH模式。",
+      "date": "2021-03-08T16:00:00.000Z",
+      "categories": [
+        "笔记"
+      ],
+      "tags": [
+        "y2021",
+        "原创",
+        "Golang",
+        "笔记"
+      ],
+      "cover": "https://p.amoswu.top/bg/bg-golang.png",
+      "readingTime": 5,
+      "aiSummary": [
+        "Golang安装简单，通过.msi包安装并验证`go version`即可成功。",
+        "需手动配置GOROOT、GOPATH和GOBIN环境变量，并在Path中添加Go的bin目录。",
+        "配置国内镜像源如阿里云可加速依赖下载，使用`go env -w GOPROXY`命令设置。",
+        "GoLand中需正确设置GOROOT和GOPATH，并关闭GO111MODULE以兼容GOPATH模式。"
+      ],
+      "url": "https://blog.amoswu.top/posts/53c2/",
+      "apiUrl": "https://blog.amoswu.top/api/posts/53c2.json",
+      "matchType": "all"
+    },
+    {
+      "slug": "c456",
+      "title": "Markdown 从零开始",
+      "description": "Markdown是一种语法简单、学习成本低的轻量级标记语言，支持多平台使用，纯文本格式可移植性强，兼容主流编辑器与文档管理系统，通过处理器可将.md文件转为HTML，便于网页展示与多格式导出，常用语法如标题、列表、引用、图片链接、粗斜体及表格，十分钟即可掌握基础操作。",
+      "date": "2021-03-03T16:00:00.000Z",
+      "categories": [
+        "教程",
+        "笔记"
+      ],
+      "tags": [
+        "y2021",
+        "原创",
+        "Markdown",
+        "笔记"
+      ],
+      "cover": "https://p.amoswu.top/post/20210304/yOzxW.png",
+      "readingTime": 12,
+      "aiSummary": [
+        "Markdown是一种轻量级标记语言，语法简单，学习成本低，适合专注内容创作。",
+        "支持多平台使用，纯文本格式可移植性强，兼容主流编辑器与文档管理系统。",
+        "通过Markdown处理器将.md文件转为HTML，便于网页展示与多格式导出。",
+        "常用语法包括标题、列表、引用、图片链接、粗斜体及表格，十分钟即可掌握基础操作。"
+      ],
+      "url": "https://blog.amoswu.top/posts/c456/",
+      "apiUrl": "https://blog.amoswu.top/api/posts/c456.json",
+      "matchType": "all"
+    }
+  ]
+}

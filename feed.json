@@ -1,0 +1,720 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Amos' Blog",
+  "description": "恒者行远，思者常新。",
+  "home_page_url": "https://blog.amoswu.top",
+  "feed_url": "https://blog.amoswu.top/feed.json",
+  "language": "zh-CN",
+  "authors": [
+    {
+      "name": "Amos",
+      "url": "https://blog.amoswu.top",
+      "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+    }
+  ],
+  "favicon": "https://blog.amoswu.top/logo.svg",
+  "icon": "https://blog.amoswu.top/logo.svg",
+  "ttl": 60,
+  "date_modified": "2026-02-04T00:00:00.000Z",
+  "items": [
+    {
+      "id": "https://blog.amoswu.top/posts/b24a/",
+      "url": "https://blog.amoswu.top/posts/b24a/",
+      "title": "制度塑造繁荣：2024年诺贝尔经济学奖的跨时代启示",
+      "summary": "2024年诺贝尔经济学奖授予阿西莫格鲁、约翰逊与罗宾逊，揭示制度对国家繁荣的决定性作用：包容性制度促进增长，掠夺性制度导致停滞；在算力革命时代，需通过算法透明、数据确权与反垄断构建包容性治理体系，防止技术加剧不平等与制度锁定。",
+      "date_published": "2026-02-04T00:00:00.000Z",
+      "date_modified": "2026-02-04T00:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "经济学"
+      ],
+      "tags": [
+        "经济学",
+        "诺贝尔奖",
+        "制度分析",
+        "人工智能",
+        "数字治理",
+        "y2025"
+      ],
+      "image": "https://p.amoswu.top/post/oMYR.jpg",
+      "language": "zh-CN",
+      "custom_summary": [
+        "2024年诺贝尔经济学奖授予阿西莫格鲁、约翰逊与罗宾逊，表彰其揭示制度对国家繁荣的决定性作用。",
+        "研究指出包容性制度促进广泛参与与增长，而掠夺性制度导致资源集中与停滞，形成路径依赖。",
+        "在算力革命时代，技术本身不保证公平，需通过制度设计防止算法加剧不平等与数字鸿沟。",
+        "构建数字时代的包容性治理体系，需强化算法透明、数据确权与反垄断，避免制度锁定风险。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/419d/",
+      "url": "https://blog.amoswu.top/posts/419d/",
+      "title": "体面「告别」的修行——评《莲花楼》",
+      "summary": "《莲花楼》以“后武侠”视角讲述英雄落幕后的平凡自洽，通过众生“爱而不得”的情感困境与环环相扣的案件，揭示人性执念，最终以李莲花的放下与原谅，诠释看清真相后仍尊严退场的最高级英雄主义。",
+      "date_published": "2026-01-30T12:00:00.000Z",
+      "date_modified": "2026-01-30T12:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "影视评论"
+      ],
+      "tags": [
+        "莲花楼",
+        "剧评",
+        "y2026"
+      ],
+      "image": "https://p.amoswu.top/post/8gSR.webp",
+      "language": "zh-CN",
+      "custom_summary": [
+        "《莲花楼》以“后武侠”视角聚焦英雄落幕后的平凡自洽，展现从巅峰跌落后与自我和解的深刻主题。",
+        "剧中众生‘爱而不得’的情感困境，映射现实人生中告别的常态，赋予江湖故事真实而残缺的质感。",
+        "叙事结构严谨，案件环环相扣，层层剥笋揭示人性执念，最终收束于十年前阴谋的闭环。",
+        "李莲花以放下与原谅践行体面告别，诠释最高级英雄主义：看清生活真相后仍选择尊严退场。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/83e2/",
+      "url": "https://blog.amoswu.top/posts/83e2/",
+      "title": "简明 Book Searcher 使用教程",
+      "summary": "Book Searcher 是基于 Anna's Archive 的开源工具，支持通过 IPFS 搜索 Z-Library 资源，用户可配置 cloudflare-ipfs.com 等网关或备用节点，配合检测工具确保稳定访问，并提供多入口选择以优化体验。",
+      "date_published": "2023-02-25T00:00:00.000Z",
+      "date_modified": "2023-02-25T00:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "教程"
+      ],
+      "tags": [
+        "y2023",
+        "原创",
+        "教程"
+      ],
+      "language": "zh-CN",
+      "custom_summary": [
+        "Book Searcher 是基于 Anna's Archive 数据库的开源项目，支持通过 IPFS 搜索并获取 Z…",
+        "使用 Book Searcher 需配置 IPFS 网关（如 cloudflare-ipfs.com），以访问去中心化…",
+        "支持多个备用网关和检测工具，确保在部分网关失效时仍能稳定访问资源。",
+        "提供多个可用网址入口，用户可灵活选择访问节点提升使用体验。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/73a3/",
+      "url": "https://blog.amoswu.top/posts/73a3/",
+      "title": "免费正版图书期刊阅读方法分享",
+      "summary": "博看书苑收录4000余种期刊、3万余册图书，涵盖党政、文学、科技等领域，支持PC、APP及微信小程序多端阅读。用户注册后输入机构授权码（如浙江图书馆zjlib、武汉大学whu）即可免费使用，搜索“博看 site:edu.cn”可快速获取高校授权码，畅享正版资源。",
+      "date_published": "2022-06-23T16:00:00.000Z",
+      "date_modified": "2022-06-23T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "教程"
+      ],
+      "tags": [
+        "y2022",
+        "原创",
+        "教程"
+      ],
+      "image": "https://p.amoswu.top/post/npa5M.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "博看书苑收录4000多种期刊和30000多册图书，覆盖党政、文学、科技等多领域，支持多端阅读。",
+        "用户可通过PC、APP、微信小程序访问，注册后输入机构授权码即可免费使用。",
+        "授权码可通过各省市级图书馆或高校图书馆获取，如浙江图书馆为zjlib，武汉大学为whu。",
+        "搜索'博看 site:edu.cn'可快速查找高校授权码，实现免费正版资源获取。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/3ed5/",
+      "url": "https://blog.amoswu.top/posts/3ed5/",
+      "title": "Qt程序中优雅的打包方案",
+      "summary": "使用Qt内置工具windeployqt.exe可一键自动部署程序，只需准备Release版exe及依赖文件（路径不含中文），在对应编译器控制台运行命令即可自动复制所需dll等依赖库，简化打包流程。",
+      "date_published": "2021-03-30T16:00:00.000Z",
+      "date_modified": "2021-03-30T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "随笔"
+      ],
+      "tags": [
+        "y2021",
+        "原创",
+        "Qt",
+        "随笔"
+      ],
+      "image": "https://p.amoswu.top/post/LFS8v.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "Qt程序打包可通过内置工具windeployqt.exe实现一键自动化部署",
+        "使用windeployqt前需准备Release版exe及依赖文件，并确保路径不含中文",
+        "通过Qt对应编译器控制台运行windeployqt命令，自动复制所需dll等依赖库"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/f624/",
+      "url": "https://blog.amoswu.top/posts/f624/",
+      "title": "Qt程序中优雅的日志方案",
+      "summary": "Easylogging++ 是 Qt C++ 中轻量高效的日志方案，媲美 Loguru，支持 QString 等数据类型，通过 *.pro 文件宏配置快速集成，结合 LOG(INFO) 实现多环境分级输出，涵盖时间、级别、内容等核心要素。",
+      "date_published": "2021-03-30T16:00:00.000Z",
+      "date_modified": "2021-03-30T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "随笔"
+      ],
+      "tags": [
+        "y2021",
+        "原创",
+        "Qt",
+        "随笔"
+      ],
+      "image": "https://p.amoswu.top/post/cPuSU.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "Easylogging++ 是 Qt C++ 中媲美 Loguru 的优雅日志方案，轻量、高效且高度可配置。",
+        "日志核心要素包括时间、位置、级别、内容、唯一标识和格式化，需根据用途合理设计。",
+        "Easylogging++ 支持 Qt 数据类型（如 QString、QList 等），配置简单，适合多环境分级输出。",
+        "通过 *.pro 文件定义宏启用 Qt 支持，结合 LOG(INFO) 语法即可快速集成到项目中。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/2956/",
+      "url": "https://blog.amoswu.top/posts/2956/",
+      "title": "从零开始搭建NTP服务",
+      "summary": "NTP协议实现高精度时间同步，局域网误差小于1ms，广域网约几十毫秒；Windows自2000内置W32Time服务，Win10/Server 2016精度达1ms，可通过注册表或Internet时间设置同步NTP服务器，Ubuntu则使用ntpdate命令校准时间。",
+      "date_published": "2021-03-24T00:00:00.000Z",
+      "date_modified": "2021-03-24T00:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "教程"
+      ],
+      "tags": [
+        "y2021",
+        "原创",
+        "教程"
+      ],
+      "image": "https://p.amoswu.top/bg/post-w-ntp.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "NTP协议可实现计算机高精度时间同步，局域网误差小于1ms，广域网为几十毫秒。",
+        "Windows系统自2000起内置W32Time服务，支持与NTP服务器同步，Win10/Server 2016可达1…",
+        "通过修改注册表Config和NtpServer路径下的AnnounceFlags与Enabled值，可启用Window…",
+        "Windows可通过Internet时间设置同步NTP服务器，Ubuntu使用ntpdate命令实现时间校准。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/e182/",
+      "url": "https://blog.amoswu.top/posts/e182/",
+      "title": "10分钟搞定装机入门知识",
+      "summary": "CPU选Intel酷睿或AMD锐龙，数字越大性能越强，参考天梯图；内存优选DDR4以上，8GB起步配64位系统；硬盘建议SSD+HDD组合，系统装固态提速，数据存机械便于恢复；独显性能强于集显，适合游戏设计，注意PCIe/NVMe接口带宽。",
+      "date_published": "2021-03-11T00:00:00.000Z",
+      "date_modified": "2021-03-11T00:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "科普"
+      ],
+      "tags": [
+        "y2021",
+        "原创",
+        "随笔",
+        "科普"
+      ],
+      "image": "https://p.amoswu.top/post/20210311/1.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "CPU是电脑核心，Intel酷睿与AMD锐龙为主流，数字越大性能越强，建议参考CPU天梯图选择。",
+        "内存影响运行速度，优选DDR4及以上代数，频率越高越好，容量建议8GB以上并搭配64位系统。",
+        "硬盘推荐固态+机械组合，SSD装系统和软件提升速度，HDD存数据且支持误删恢复。",
+        "独立显卡分集成与独立，后者性能更强，适合游戏与设计，接口如PCIe和NVMe影响带宽与速度。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/53c2/",
+      "url": "https://blog.amoswu.top/posts/53c2/",
+      "title": "Golang 环境配置小记",
+      "summary": "Golang安装简单，通过.msi包安装后验证`go version`，需手动配置GOROOT、GOPATH、GOBIN及Path，添加Go的bin目录；配置阿里云等国内镜像源加速依赖下载，使用`go env -w GOPROXY`命令；GoLand中需正确设置GOROOT和GOPATH，并关闭GO111MODULE以兼容GOPATH模式。",
+      "date_published": "2021-03-08T16:00:00.000Z",
+      "date_modified": "2021-03-08T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "笔记"
+      ],
+      "tags": [
+        "y2021",
+        "原创",
+        "Golang",
+        "笔记"
+      ],
+      "image": "https://p.amoswu.top/bg/bg-golang.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "Golang安装简单，通过.msi包安装并验证`go version`即可成功。",
+        "需手动配置GOROOT、GOPATH和GOBIN环境变量，并在Path中添加Go的bin目录。",
+        "配置国内镜像源如阿里云可加速依赖下载，使用`go env -w GOPROXY`命令设置。",
+        "GoLand中需正确设置GOROOT和GOPATH，并关闭GO111MODULE以兼容GOPATH模式。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/c456/",
+      "url": "https://blog.amoswu.top/posts/c456/",
+      "title": "Markdown 从零开始",
+      "summary": "Markdown是一种语法简单、学习成本低的轻量级标记语言，支持多平台使用，纯文本格式可移植性强，兼容主流编辑器与文档管理系统，通过处理器可将.md文件转为HTML，便于网页展示与多格式导出，常用语法如标题、列表、引用、图片链接、粗斜体及表格，十分钟即可掌握基础操作。",
+      "date_published": "2021-03-03T16:00:00.000Z",
+      "date_modified": "2021-03-03T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "教程",
+        "笔记"
+      ],
+      "tags": [
+        "y2021",
+        "原创",
+        "Markdown",
+        "笔记"
+      ],
+      "image": "https://p.amoswu.top/post/20210304/yOzxW.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "Markdown是一种轻量级标记语言，语法简单，学习成本低，适合专注内容创作。",
+        "支持多平台使用，纯文本格式可移植性强，兼容主流编辑器与文档管理系统。",
+        "通过Markdown处理器将.md文件转为HTML，便于网页展示与多格式导出。",
+        "常用语法包括标题、列表、引用、图片链接、粗斜体及表格，十分钟即可掌握基础操作。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/f5cf/",
+      "url": "https://blog.amoswu.top/posts/f5cf/",
+      "title": "使用计算机有感",
+      "summary": "重度用户应善用快捷键与启动工具，结合在线表单与Excel公式自动化信息处理，用Markdown与自建NAS构建安全知识系统，主动优化软硬件环境，全面提升效率与使用体验。",
+      "date_published": "2020-11-20T00:00:00.000Z",
+      "date_modified": "2020-11-20T00:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "随笔"
+      ],
+      "tags": [
+        "y2020",
+        "原创",
+        "随笔",
+        "新知识"
+      ],
+      "image": "https://p.amoswu.top/bg/mac.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "重度计算机用户建议多用键盘少用鼠标，善用快捷键和启动工具提升效率。",
+        "通过在线收集表和Excel公式实现信息收集与处理的自动化，节省重复劳动时间。",
+        "建立个人知识系统，区分敏感与非敏感信息，结合Markdown与自建NAS实现高效管理。",
+        "倡导主动‘折腾’计算机，优化软硬件环境，提升使用体验与工作效率。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/f455/",
+      "url": "https://blog.amoswu.top/posts/f455/",
+      "title": "浅谈互联网下载查毒",
+      "summary": "木马窃取隐私、蠕虫主动传播威胁大，应从官网或安全商店下载软件，非官方来源需验证；使用Virustotal、腾讯哈勃等多引擎查毒提升安全，发现病毒及时通过CNVD、360等平台上报，共筑网络防线。",
+      "date_published": "2020-09-15T16:00:00.000Z",
+      "date_modified": "2020-09-15T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "科普"
+      ],
+      "tags": [
+        "y2020",
+        "原创",
+        "随笔"
+      ],
+      "image": "https://p.amoswu.top/bg/post-bg-hacker.jpg",
+      "language": "zh-CN",
+      "custom_summary": [
+        "木马病毒窃取隐私或破坏数据，蠕虫病毒利用漏洞主动传播，威胁更大。",
+        "官网或安全软件商店下载较安全，但非官网来源需谨慎验证。",
+        "使用Virustotal和腾讯哈勃等在线查毒工具，结合多病毒库检测可提升安全性。",
+        "发现病毒可通过CNVD、360、金山等平台上报，共建网络安全防线。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/6ae9/",
+      "url": "https://blog.amoswu.top/posts/6ae9/",
+      "title": "10年Qt开发经验总结",
+      "summary": "编译错误应从首个开始排查，后续错误常由其引发；善用 QTimer::singleShot 和 QFormLayout 简化开发，统一 QSS 管理样式提升维护性，避免滥用 tr 包含中文，推荐 QStringLiteral 提升性能。",
+      "date_published": "2020-09-08T16:00:00.000Z",
+      "date_modified": "2020-09-08T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "知识整理"
+      ],
+      "tags": [
+        "y2020",
+        "转载",
+        "Qt",
+        "C++",
+        "笔记"
+      ],
+      "image": "https://p.amoswu.top/bg/post-qt.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "编译错误应从首个开始排查，后续错误常由其引发，逐个解决更高效。",
+        "善用 QTimer::singleShot 和 QFormLayout 可简化逻辑与界面开发。",
+        "统一使用 QSS 文件管理样式表，提升可维护性并减少内存占用。",
+        "避免滥用 tr 包含中文，若无翻译需求应禁用，推荐使用 QStringLiteral 提升性能。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/17b0/",
+      "url": "https://blog.amoswu.top/posts/17b0/",
+      "title": "Qt 动态链接库",
+      "summary": "静态库(.lib/.a)内嵌代码致内存冗余，动态库(.dll/.so)运行时共享节省资源；Qt Creator中用Q_DECL_EXPORT/IMPORT宏实现跨平台动态库，配置.pro路径并放置.dll于可执行文件目录确保加载。",
+      "date_published": "2020-09-01T16:00:00.000Z",
+      "date_modified": "2020-09-01T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "新知",
+        "笔记"
+      ],
+      "tags": [
+        "y2020",
+        "原创",
+        "Qt",
+        "C++",
+        "笔记"
+      ],
+      "image": "https://p.amoswu.top/bg/post-qt.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "静态链接库将函数代码直接嵌入可执行文件，导致内存中存在多份拷贝，扩展名为.lib（Windows）或.a（Linux）。",
+        "动态链接库在运行时加载，多个程序共享同一份内存中的代码，扩展名为.dll（Windows）或.so（Linux），提升…",
+        "使用Qt Creator创建C++库项目，通过Q_DECL_EXPORT/IMPORT宏实现跨平台的动态库导出与导入机…",
+        "调用动态库需配置.pro文件引入库路径，并将.dll文件置于可执行文件同级目录以确保运行时正确加载。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/cbea/",
+      "url": "https://blog.amoswu.top/posts/cbea/",
+      "title": "Qt 流读写XML",
+      "summary": "Qt通过QXmlStreamWriter和QXmlStreamReader实现高效的XML流读写，速度快、内存占用低，适合快速处理；API分离使代码清晰，示例包含错误处理与UTF-8编码设置，但不支持文档修改。",
+      "date_published": "2020-08-30T16:00:00.000Z",
+      "date_modified": "2020-08-30T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "新知",
+        "笔记"
+      ],
+      "tags": [
+        "y2020",
+        "原创",
+        "Qt",
+        "C++",
+        "笔记"
+      ],
+      "image": "https://p.amoswu.top/bg/post-qt.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "Qt流读写XML采用QXmlStreamWriter和QXmlStreamReader，实现高效的一次性读写，适合快速…",
+        "相比DOM和SAX，流读写速度快、内存占用低，但不支持文档修改和删除操作。",
+        "流读写API分离，写入使用QXmlStreamWriter，读取使用QXmlStreamReader，代码结构清晰。",
+        "示例代码展示了如何将数据写入XML文件并读取，包含错误处理和UTF-8编码设置。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/b30a/",
+      "url": "https://blog.amoswu.top/posts/b30a/",
+      "title": "Qt C++ MSVC 编译环境构建",
+      "summary": "无需安装Visual Studio全家桶，修改注册表HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\V…即可让Qt Creator识别MSVC环境；安装VS2019生成工具并勾选C++组件（约10GB），再通过Qt维护工具添加镜像源http://mirrors.ustc.edu.cn/qtproject/…，轻松实现Qt MSVC编译。",
+      "date_published": "2020-08-19T16:00:00.000Z",
+      "date_modified": "2020-08-19T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "新知",
+        "笔记"
+      ],
+      "tags": [
+        "y2020",
+        "原创",
+        "Qt",
+        "C++",
+        "笔记"
+      ],
+      "image": "https://p.amoswu.top/bg/post-qt.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "无需安装Visual Studio全家桶，通过修改注册表实现Qt Creator对MSVC编译环境的识别。",
+        "关键注册表路径为HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\V…",
+        "安装Visual Studio 2019生成工具并勾选C++组件，仅需约10GB空间即可支持Qt MSVC编译。",
+        "通过Qt维护工具添加临时镜像源http://mirrors.ustc.edu.cn/qtproject/...，可解决…"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/97ec/",
+      "url": "https://blog.amoswu.top/posts/97ec/",
+      "title": "Qt C++ 对XML的增删改查",
+      "summary": "Qt通过QDomDocument类实现XML文件的创建与管理，支持构建节点树、设置属性，写入时添加处理指令并使用save()输出格式化内容；读取时采用DOM解析遍历节点获取数据，需引入xml模块并包含<QtXml>头文件。",
+      "date_published": "2020-08-13T16:00:00.000Z",
+      "date_modified": "2020-08-13T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "新知",
+        "笔记"
+      ],
+      "tags": [
+        "y2020",
+        "原创",
+        "Qt",
+        "C++",
+        "教程"
+      ],
+      "image": "https://p.amoswu.top/bg/post-qt.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "Qt通过QDomDocument类实现XML文件的创建与结构化管理，支持设置根节点、子元素及属性。",
+        "写入XML时需添加处理指令并逐级构建节点，使用save()方法输出带缩进的格式化内容。",
+        "读取XML采用DOM解析方式，通过遍历节点树获取标签名、属性和文本内容。",
+        "Qt XML操作需在.pro文件中引入xml模块并在代码中包含<QtXml>头文件。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/48d2/",
+      "url": "https://blog.amoswu.top/posts/48d2/",
+      "title": "Qt Creator 编辑器下的代码格式化",
+      "summary": "Qt Creator默认不支持一键代码格式化，但通过配置Beautifier插件并指定Artistic Style工具的AStyle.exe路径，可实现C++代码格式化，支持GNU、Allman等15种预设风格，还可为FormatFile绑定快捷键以提升开发效率。",
+      "date_published": "2020-08-10T16:00:00.000Z",
+      "date_modified": "2020-08-10T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "新知",
+        "笔记"
+      ],
+      "tags": [
+        "y2020",
+        "原创",
+        "Qt",
+        "C++",
+        "笔记"
+      ],
+      "image": "https://p.amoswu.top/bg/post-qt.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "Qt Creator默认不支持一键代码格式化，需通过配置Beautifier插件实现",
+        "需下载Artistic Style工具并指定AStyle.exe路径以支持C++代码格式化",
+        "支持自定义格式化风格，如GNU、Allman等15种预设样式可选",
+        "可在环境设置中为FormatFile功能绑定快捷键，提升开发效率"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/584e/",
+      "url": "https://blog.amoswu.top/posts/584e/",
+      "title": "Qt C++ Windows10环境配置",
+      "summary": "Qt是跨平台C++开发框架，支持GUI与非GUI程序开发，推荐通过清华大学镜像站下载Qt安装包以加速Windows 10环境搭建，安装时选择MinGW或MSVC编译器并配置Qt Creator，完成后即可通过开始菜单启动进行C++开发。",
+      "date_published": "2020-08-09T16:00:00.000Z",
+      "date_modified": "2020-08-09T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "新知",
+        "笔记"
+      ],
+      "tags": [
+        "y2020",
+        "原创",
+        "Qt",
+        "C++",
+        "笔记"
+      ],
+      "image": "https://p.amoswu.top/bg/post-qt.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "Qt是跨平台C++开发框架，广泛用于GUI和非GUI程序开发",
+        "推荐使用清华大学镜像站下载Qt安装包以加速Windows10环境搭建",
+        "安装时需选择对应编译器如MinGW或MSVC，并完成Qt Creator配置",
+        "安装完成后可通过开始菜单启动Qt Creator进行C++开发"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/121/",
+      "url": "https://blog.amoswu.top/posts/121/",
+      "title": "辉煌70载，与您同在",
+      "summary": "通过70年老照片回顾新中国成长历程，结合《我和我的祖国》电影与歌曲热评词云，展现民众爱国心声，强调了解祖国是爱国前提，作者祝福祖国繁荣富强，呼吁与祖国并肩前行，共创辉煌未来。",
+      "date_published": "2019-10-01T00:00:00.000Z",
+      "date_modified": "2019-10-01T00:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "特别博文"
+      ],
+      "tags": [
+        "y2019",
+        "原创",
+        "特别博文"
+      ],
+      "image": "https://p.amoswu.top/bg/bg-red.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "文章通过70年老照片回顾新中国成长历程，强调了解祖国是爱国的前提。",
+        "分析王菲演唱的《我和我的祖国》热评数据，生成词云图展现民众爱国心声。",
+        "结合电影《我和我的祖国》以小人物见证大时代，献礼新中国成立70周年。",
+        "作者表达对祖国繁荣富强的祝福，呼吁与祖国并肩前行，共创辉煌未来。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/836c/",
+      "url": "https://blog.amoswu.top/posts/836c/",
+      "title": "为什么“中台”这么火？",
+      "summary": "中台源于美军作战体系，经Supercell引入互联网，由阿里2015年推行“大中台、小前台”战略，通过共享技术平台与数据复用，实现服务重用、快速响应与成本优化，推动企业架构去中心化与高效创新。",
+      "date_published": "2019-08-31T16:00:00.000Z",
+      "date_modified": "2019-08-31T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "新知",
+        "随笔"
+      ],
+      "tags": [
+        "y2019",
+        "原创",
+        "随笔",
+        "新知识"
+      ],
+      "image": "https://p.amoswu.top/bg/post-bg-alibaba.jpg",
+      "language": "zh-CN",
+      "custom_summary": [
+        "中台概念源于美军作战体系，通过强大后台支持灵活小团队作战，提升响应效率。",
+        "Supercell首次将中台引入互联网，以6-7人小团队+共享技术平台实现高效游戏开发。",
+        "阿里巴巴2015年推行中台战略，构建‘大中台、小前台’机制，强化数据与业务复用能力。",
+        "中台核心价值在于服务重用、快速响应、降低成本，推动企业架构去中心化与数据沉淀。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/80c1/",
+      "url": "https://blog.amoswu.top/posts/80c1/",
+      "title": "什么是“沙盒创新”以及它背后的启示",
+      "summary": "沙盒创新强调在限制中挖掘系统内部资源，激发创造力；以色列以滴灌技术将水效提升至95%，印证创新可复制；SIT思维通过打破功能、结构、关系定势，用减法释放潜能，变被动为主动。",
+      "date_published": "2019-08-03T00:00:00.000Z",
+      "date_modified": "2019-08-03T00:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "新知",
+        "笔记"
+      ],
+      "tags": [
+        "y2019",
+        "原创",
+        "随笔",
+        "新知识"
+      ],
+      "image": "https://p.amoswu.top/bg/post-bg-water.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "沙盒创新指在外部条件无法改变时，通过挖掘系统内部资源实现创新，强调“限制激发创造力”。",
+        "以色列因资源匮乏倒逼创新，如滴灌技术将水利用率从15%提升至95%以上，实现农业自给并出口。",
+        "SIT系统创新思维提出打破功能、结构、关系三类思维定势，通过减法等工具挖掘现有资源新价值。",
+        "创新可复制，需减少抱怨、主动行动，并在复杂系统中做减法以释放潜能。"
+      ]
+    },
+    {
+      "id": "https://blog.amoswu.top/posts/e16/",
+      "url": "https://blog.amoswu.top/posts/e16/",
+      "title": "Windows装机相关问题之装机知识扫盲",
+      "summary": "硬盘分区格式主要有GPT和MBR，GPT支持更大容量和更多分区，适用于UEFI启动；UEFI比Legacy更快更安全，推荐新平台使用；Windows装机需创建ESP（引导）和MSR（系统保留）分区。",
+      "date_published": "2019-04-26T16:00:00.000Z",
+      "date_modified": "2019-04-26T16:00:00.000Z",
+      "author": {
+        "name": "Amos",
+        "url": "https://blog.amoswu.top",
+        "avatar": "https://p.amoswu.top/blog/avatar.jpg"
+      },
+      "categories": [
+        "科普"
+      ],
+      "tags": [
+        "y2019",
+        "原创",
+        "Windows",
+        "装机"
+      ],
+      "image": "https://p.amoswu.top/bg/post-bg-debug.png",
+      "language": "zh-CN",
+      "custom_summary": [
+        "硬盘分区格式主要有GPT（GUID）和MBR两种，GPT支持更大容量和更多分区，适用于UEFI启动；MBR最多支持4个…",
+        "UEFI启动模式比Legacy更快更安全，省去BIOS自检，支持大容量硬盘，推荐2015年后新平台使用；老平台应选Le…",
+        "Windows装机必备ESP和MSR分区：ESP用于UEFI系统引导，存储启动程序；MSR为保留分区，供系统调整和更新…"
+      ]
+    }
+  ]
+}
