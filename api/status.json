@@ -1,10 +1,10 @@
 {
   "status": "ok",
-  "timestamp": "2026-04-21T06:39:13.262Z",
-  "buildTimestamp": "2026-04-21T06:39:13.260Z",
+  "timestamp": "2026-04-21T06:56:47.000Z",
+  "buildTimestamp": "2026-04-21T06:56:46.996Z",
   "site": {
     "name": "Amos' Blog",
-    "url": "https://blog.amoswu.top",
+    "url": "https://amoswu.top",
     "description": "恒者行远，思者常新。",
     "author": "Amos",
     "startDate": "2018-10-10"
@@ -18,14 +18,14 @@
   "latestPost": {
     "title": "制度塑造繁荣：2024年诺贝尔经济学奖的跨时代启示",
     "date": "2026-02-04T00:00:00.000Z",
-    "url": "https://blog.amoswu.top/posts/b24a/"
+    "url": "https://amoswu.top/posts/b24a/"
   },
   "feeds": {
-    "rss": "https://blog.amoswu.top/rss.xml",
-    "json": "https://blog.amoswu.top/feed.json",
+    "rss": "https://amoswu.top/rss.xml",
+    "json": "https://amoswu.top/feed.json",
     "api": {
-      "posts": "https://blog.amoswu.top/api/posts.json",
-      "search": "https://blog.amoswu.top/api/search.json"
+      "posts": "https://amoswu.top/api/posts.json",
+      "search": "https://amoswu.top/api/search.json"
     }
   },
   "capabilities": {

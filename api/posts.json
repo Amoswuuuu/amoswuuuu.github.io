@@ -2,7 +2,7 @@
   "version": "1.0",
   "site": {
     "name": "Amos' Blog",
-    "url": "https://blog.amoswu.top",
+    "url": "https://amoswu.top",
     "description": "恒者行远，思者常新。",
     "author": "Amos"
   },
@@ -33,7 +33,7 @@
         "在算力革命时代，技术本身不保证公平，需通过制度设计防止算法加剧不平等与数字鸿沟。",
         "构建数字时代的包容性治理体系，需强化算法透明、数据确权与反垄断，避免制度锁定风险。"
       ],
-      "url": "https://blog.amoswu.top/posts/b24a/"
+      "url": "https://amoswu.top/posts/b24a/"
     },
     {
       "slug": "419d",
@@ -57,7 +57,7 @@
         "叙事结构严谨，案件环环相扣，层层剥笋揭示人性执念，最终收束于十年前阴谋的闭环。",
         "李莲花以放下与原谅践行体面告别，诠释最高级英雄主义：看清生活真相后仍选择尊严退场。"
       ],
-      "url": "https://blog.amoswu.top/posts/419d/"
+      "url": "https://amoswu.top/posts/419d/"
     },
     {
       "slug": "83e2",
@@ -81,7 +81,7 @@
         "支持多个备用网关和检测工具，确保在部分网关失效时仍能稳定访问资源。",
         "提供多个可用网址入口，用户可灵活选择访问节点提升使用体验。"
       ],
-      "url": "https://blog.amoswu.top/posts/83e2/"
+      "url": "https://amoswu.top/posts/83e2/"
     },
     {
       "slug": "73a3",
@@ -105,7 +105,7 @@
         "授权码可通过各省市级图书馆或高校图书馆获取，如浙江图书馆为zjlib，武汉大学为whu。",
         "搜索'博看 site:edu.cn'可快速查找高校授权码，实现免费正版资源获取。"
       ],
-      "url": "https://blog.amoswu.top/posts/73a3/"
+      "url": "https://amoswu.top/posts/73a3/"
     },
     {
       "slug": "3ed5",
@@ -129,7 +129,7 @@
         "使用windeployqt前需准备Release版exe及依赖文件，并确保路径不含中文",
         "通过Qt对应编译器控制台运行windeployqt命令，自动复制所需dll等依赖库"
       ],
-      "url": "https://blog.amoswu.top/posts/3ed5/"
+      "url": "https://amoswu.top/posts/3ed5/"
     },
     {
       "slug": "f624",
@@ -154,7 +154,7 @@
         "Easylogging++ 支持 Qt 数据类型（如 QString、QList 等），配置简单，适合多环境分级输出。",
         "通过 *.pro 文件定义宏启用 Qt 支持，结合 LOG(INFO) 语法即可快速集成到项目中。"
       ],
-      "url": "https://blog.amoswu.top/posts/f624/"
+      "url": "https://amoswu.top/posts/f624/"
     },
     {
       "slug": "2956",
@@ -178,7 +178,7 @@
         "通过修改注册表Config和NtpServer路径下的AnnounceFlags与Enabled值，可启用Window…",
         "Windows可通过Internet时间设置同步NTP服务器，Ubuntu使用ntpdate命令实现时间校准。"
       ],
-      "url": "https://blog.amoswu.top/posts/2956/"
+      "url": "https://amoswu.top/posts/2956/"
     },
     {
       "slug": "e182",
@@ -203,7 +203,7 @@
         "硬盘推荐固态+机械组合，SSD装系统和软件提升速度，HDD存数据且支持误删恢复。",
         "独立显卡分集成与独立，后者性能更强，适合游戏与设计，接口如PCIe和NVMe影响带宽与速度。"
       ],
-      "url": "https://blog.amoswu.top/posts/e182/"
+      "url": "https://amoswu.top/posts/e182/"
     },
     {
       "slug": "53c2",
@@ -228,7 +228,7 @@
         "配置国内镜像源如阿里云可加速依赖下载，使用`go env -w GOPROXY`命令设置。",
         "GoLand中需正确设置GOROOT和GOPATH，并关闭GO111MODULE以兼容GOPATH模式。"
       ],
-      "url": "https://blog.amoswu.top/posts/53c2/"
+      "url": "https://amoswu.top/posts/53c2/"
     },
     {
       "slug": "c456",
@@ -254,7 +254,7 @@
         "通过Markdown处理器将.md文件转为HTML，便于网页展示与多格式导出。",
         "常用语法包括标题、列表、引用、图片链接、粗斜体及表格，十分钟即可掌握基础操作。"
       ],
-      "url": "https://blog.amoswu.top/posts/c456/"
+      "url": "https://amoswu.top/posts/c456/"
     },
     {
       "slug": "f5cf",
@@ -279,7 +279,7 @@
         "建立个人知识系统，区分敏感与非敏感信息，结合Markdown与自建NAS实现高效管理。",
         "倡导主动‘折腾’计算机，优化软硬件环境，提升使用体验与工作效率。"
       ],
-      "url": "https://blog.amoswu.top/posts/f5cf/"
+      "url": "https://amoswu.top/posts/f5cf/"
     },
     {
       "slug": "f455",
@@ -303,7 +303,7 @@
         "使用Virustotal和腾讯哈勃等在线查毒工具，结合多病毒库检测可提升安全性。",
         "发现病毒可通过CNVD、360、金山等平台上报，共建网络安全防线。"
       ],
-      "url": "https://blog.amoswu.top/posts/f455/"
+      "url": "https://amoswu.top/posts/f455/"
     },
     {
       "slug": "6ae9",
@@ -329,7 +329,7 @@
         "统一使用 QSS 文件管理样式表，提升可维护性并减少内存占用。",
         "避免滥用 tr 包含中文，若无翻译需求应禁用，推荐使用 QStringLiteral 提升性能。"
       ],
-      "url": "https://blog.amoswu.top/posts/6ae9/"
+      "url": "https://amoswu.top/posts/6ae9/"
     },
     {
       "slug": "17b0",
@@ -356,7 +356,7 @@
         "使用Qt Creator创建C++库项目，通过Q_DECL_EXPORT/IMPORT宏实现跨平台的动态库导出与导入机…",
         "调用动态库需配置.pro文件引入库路径，并将.dll文件置于可执行文件同级目录以确保运行时正确加载。"
       ],
-      "url": "https://blog.amoswu.top/posts/17b0/"
+      "url": "https://amoswu.top/posts/17b0/"
     },
     {
       "slug": "cbea",
@@ -383,7 +383,7 @@
         "流读写API分离，写入使用QXmlStreamWriter，读取使用QXmlStreamReader，代码结构清晰。",
         "示例代码展示了如何将数据写入XML文件并读取，包含错误处理和UTF-8编码设置。"
       ],
-      "url": "https://blog.amoswu.top/posts/cbea/"
+      "url": "https://amoswu.top/posts/cbea/"
     },
     {
       "slug": "b30a",
@@ -410,7 +410,7 @@
         "安装Visual Studio 2019生成工具并勾选C++组件，仅需约10GB空间即可支持Qt MSVC编译。",
         "通过Qt维护工具添加临时镜像源http://mirrors.ustc.edu.cn/qtproject/...，可解决…"
       ],
-      "url": "https://blog.amoswu.top/posts/b30a/"
+      "url": "https://amoswu.top/posts/b30a/"
     },
     {
       "slug": "97ec",
@@ -437,7 +437,7 @@
         "读取XML采用DOM解析方式，通过遍历节点树获取标签名、属性和文本内容。",
         "Qt XML操作需在.pro文件中引入xml模块并在代码中包含<QtXml>头文件。"
       ],
-      "url": "https://blog.amoswu.top/posts/97ec/"
+      "url": "https://amoswu.top/posts/97ec/"
     },
     {
       "slug": "48d2",
@@ -464,7 +464,7 @@
         "支持自定义格式化风格，如GNU、Allman等15种预设样式可选",
         "可在环境设置中为FormatFile功能绑定快捷键，提升开发效率"
       ],
-      "url": "https://blog.amoswu.top/posts/48d2/"
+      "url": "https://amoswu.top/posts/48d2/"
     },
     {
       "slug": "584e",
@@ -491,7 +491,7 @@
         "安装时需选择对应编译器如MinGW或MSVC，并完成Qt Creator配置",
         "安装完成后可通过开始菜单启动Qt Creator进行C++开发"
       ],
-      "url": "https://blog.amoswu.top/posts/584e/"
+      "url": "https://amoswu.top/posts/584e/"
     },
     {
       "slug": "121",
@@ -515,7 +515,7 @@
         "结合电影《我和我的祖国》以小人物见证大时代，献礼新中国成立70周年。",
         "作者表达对祖国繁荣富强的祝福，呼吁与祖国并肩前行，共创辉煌未来。"
       ],
-      "url": "https://blog.amoswu.top/posts/121/"
+      "url": "https://amoswu.top/posts/121/"
     },
     {
       "slug": "836c",
@@ -541,7 +541,7 @@
         "阿里巴巴2015年推行中台战略，构建‘大中台、小前台’机制，强化数据与业务复用能力。",
         "中台核心价值在于服务重用、快速响应、降低成本，推动企业架构去中心化与数据沉淀。"
       ],
-      "url": "https://blog.amoswu.top/posts/836c/"
+      "url": "https://amoswu.top/posts/836c/"
     },
     {
       "slug": "80c1",
@@ -567,7 +567,7 @@
         "SIT系统创新思维提出打破功能、结构、关系三类思维定势，通过减法等工具挖掘现有资源新价值。",
         "创新可复制，需减少抱怨、主动行动，并在复杂系统中做减法以释放潜能。"
       ],
-      "url": "https://blog.amoswu.top/posts/80c1/"
+      "url": "https://amoswu.top/posts/80c1/"
     },
     {
       "slug": "e16",
@@ -591,7 +591,7 @@
         "UEFI启动模式比Legacy更快更安全，省去BIOS自检，支持大容量硬盘，推荐2015年后新平台使用；老平台应选Le…",
         "Windows装机必备ESP和MSR分区：ESP用于UEFI系统引导，存储启动程序；MSR为保留分区，供系统调整和更新…"
       ],
-      "url": "https://blog.amoswu.top/posts/e16/"
+      "url": "https://amoswu.top/posts/e16/"
     }
   ]
 }

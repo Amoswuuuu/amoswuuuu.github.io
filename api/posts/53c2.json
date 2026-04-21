@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "schema": "https://blog.amoswu.top/api/posts/53c2.json",
+  "schema": "https://amoswu.top/api/posts/53c2.json",
   "slug": "53c2",
   "title": "Golang 环境配置小记",
   "description": "Golang安装简单，通过.msi包安装后验证`go version`，需手动配置GOROOT、GOPATH、GOBIN及Path，添加Go的bin目录；配置阿里云等国内镜像源加速依赖下载，使用`go env -w GOPROXY`命令；GoLand中需正确设置GOROOT和GOPATH，并关闭GO111MODULE以兼容GOPATH模式。",
@@ -25,6 +25,6 @@
     "GoLand中需正确设置GOROOT和GOPATH，并关闭GO111MODULE以兼容GOPATH模式。"
   ],
   "license": "CC BY-SA 4.0",
-  "url": "https://blog.amoswu.top/posts/53c2/",
+  "url": "https://amoswu.top/posts/53c2/",
   "body": "![1](https://p.amoswu.top/post/20210309/1.png)\n> Go 编程语言是一个开源项目，它使程序员更具生产力。\n>\n> Go 语言具有很强的表达能力，它简洁、清晰而高效。得益于其并发机制，用它编写的程序能够非常有效地利用多核与联网的计算机，其新颖的类型系统则使程序结构变得灵活而模块化。 Go 代码编译成机器码不仅非常迅速，还具有方便的垃圾收集机制和强大的运行时反射机制。 它是一个快速的、静态类型的编译型语言，感觉却像动态类型的解释型语言。\n>\n> —— From Golang Blog\n\n\n\n## 0x00. 安装环境\n\n```bash\nOS   - Windows 10 Home x64 20H2\nMem  - 16GB\n```\n\n## 0x01.下载&安装\n\n### 1. 下载源\n\n国内源 `https://studygolang.com/dl`\n\n国际源  `http://docs.studygolang.com/doc/install`\n\n### 2. 安装\n\n1. 下载完成后，双击 `.msi`安装包，安装到自己想要的路径；\n2. 在 cmd 中输入 `go version`，输出当前 golang 版本则安装成功。\n\n![image-20210309221913230](https://p.amoswu.top/post/20210309/2.png)\n\n## 0x02. 环境配置\n\n### 1. 环境变量配置\n\n1. 新建 `GoPath`目录，在此目录下新建三个文件夹 `bin` `pkg` `src`；\n\n2. 新建系统环境变量  `GOBIN` `GOPATH` `GOROOT` ，它们对应的路径分别是： `GoPath目录下的bin文件夹` `GoPath路径` `Go安装路径`；\n\n   ![image-20210309220721987](https://p.amoswu.top/post/20210309/3.png)\n\n3. 添加 系统环境变量下 `Path` 的值为 `%GOROOT%bin`\n\n   ![image-20210309221459238](https://p.amoswu.top/post/20210309/4.png)\n\n4. 重启，或管理员权限打开两个CMD，一个输入 `set PATH=C:`，另一个输入 `echo %PATH%`，在输出的路径中可以看到刚才的四个路径；\n\n5. 在 cmd 中输入 `go env` ，对应红框位置路径为刚刚设置的即可。\n\n   ![image-20210309222202763](https://p.amoswu.top/post/20210309/5.png)\n\n### 2. 配置镜像源\n\n在 cmd 中输入， `go env -w GOPROXY=https://mirrors.aliyun.com/goproxy/`\n\n![image-20210309222339330](https://p.amoswu.top/post/20210309/6.png)\n\n### 3. 配置 GoLand\n\n1. 安装后，打开`GoLand`并选择你的项目目录(或者是一个空目录，即将写代码的目录)，\n\n2. 依次点击`file -> setting -> Go`，点击`GOROOT`,选择你的 GoLand 位置所在，如下图![image-20210309225349688](https://p.amoswu.top/post/20210309/7.png)\n\n3. 点击 `GOPATH` ，选择你的项目目录，如下图\n\n   ![image-20210309225444795](https://p.amoswu.top/post/20210309/8.png)\n\n4. 在刚才创建的`src`目录下新建一个文件夹，可以是项目的名称，然后创建一个名为`main.go`的文件，代码如下\n\n   ![image-20210309230218614](https://p.amoswu.top/post/20210309/9.png)\n\n这里发生了一个小插曲，运行代码后发现编译器找不到包。\n\n**原因分析：**\n编译器没有去`GOPATH`下找包。\n\n> gomod 和 gopath 两个包管理方案，并且相互不兼容，在 gopath 查找包，按照 goroot 和多 gopath 目录下 src/xxx 依次查找。在 gomod 下查找包，解析 go.mod 文件查找包，mod 包名就是包的前缀，里面的目录就后续路径了。在 gomod 模式下，查找包就不会去 gopath 查找，只是 gomod 包缓存在 gopath/pkg/mod 里面。\n>\n> ——From CSDN\n\n**解决方案：**\n\n设置`GO111MODULE`为`off`即可。\n\n```go\ngo env -w GO111MODULE=off\n```\n\n![image-20210309230522762](https://p.amoswu.top/post/20210309/10.png)\n\n运行成功，配置结束~ ✌"
 }

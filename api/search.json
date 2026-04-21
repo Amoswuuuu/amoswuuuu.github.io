@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "schema": "https://blog.amoswu.top/api/search.json",
+  "schema": "https://amoswu.top/api/search.json",
   "q": null,
   "category": null,
   "tag": null,
@@ -32,8 +32,8 @@
         "在算力革命时代，技术本身不保证公平，需通过制度设计防止算法加剧不平等与数字鸿沟。",
         "构建数字时代的包容性治理体系，需强化算法透明、数据确权与反垄断，避免制度锁定风险。"
       ],
-      "url": "https://blog.amoswu.top/posts/b24a/",
-      "apiUrl": "https://blog.amoswu.top/api/posts/b24a.json",
+      "url": "https://amoswu.top/posts/b24a/",
+      "apiUrl": "https://amoswu.top/api/posts/b24a.json",
       "matchType": "all"
     },
     {
@@ -57,8 +57,8 @@
         "叙事结构严谨，案件环环相扣，层层剥笋揭示人性执念，最终收束于十年前阴谋的闭环。",
         "李莲花以放下与原谅践行体面告别，诠释最高级英雄主义：看清生活真相后仍选择尊严退场。"
       ],
-      "url": "https://blog.amoswu.top/posts/419d/",
-      "apiUrl": "https://blog.amoswu.top/api/posts/419d.json",
+      "url": "https://amoswu.top/posts/419d/",
+      "apiUrl": "https://amoswu.top/api/posts/419d.json",
       "matchType": "all"
     },
     {
@@ -82,8 +82,8 @@
         "支持多个备用网关和检测工具，确保在部分网关失效时仍能稳定访问资源。",
         "提供多个可用网址入口，用户可灵活选择访问节点提升使用体验。"
       ],
-      "url": "https://blog.amoswu.top/posts/83e2/",
-      "apiUrl": "https://blog.amoswu.top/api/posts/83e2.json",
+      "url": "https://amoswu.top/posts/83e2/",
+      "apiUrl": "https://amoswu.top/api/posts/83e2.json",
       "matchType": "all"
     },
     {
@@ -107,8 +107,8 @@
         "授权码可通过各省市级图书馆或高校图书馆获取，如浙江图书馆为zjlib，武汉大学为whu。",
         "搜索'博看 site:edu.cn'可快速查找高校授权码，实现免费正版资源获取。"
       ],
-      "url": "https://blog.amoswu.top/posts/73a3/",
-      "apiUrl": "https://blog.amoswu.top/api/posts/73a3.json",
+      "url": "https://amoswu.top/posts/73a3/",
+      "apiUrl": "https://amoswu.top/api/posts/73a3.json",
       "matchType": "all"
     },
     {
@@ -132,8 +132,8 @@
         "使用windeployqt前需准备Release版exe及依赖文件，并确保路径不含中文",
         "通过Qt对应编译器控制台运行windeployqt命令，自动复制所需dll等依赖库"
       ],
-      "url": "https://blog.amoswu.top/posts/3ed5/",
-      "apiUrl": "https://blog.amoswu.top/api/posts/3ed5.json",
+      "url": "https://amoswu.top/posts/3ed5/",
+      "apiUrl": "https://amoswu.top/api/posts/3ed5.json",
       "matchType": "all"
     },
     {
@@ -158,8 +158,8 @@
         "Easylogging++ 支持 Qt 数据类型（如 QString、QList 等），配置简单，适合多环境分级输出。",
         "通过 *.pro 文件定义宏启用 Qt 支持，结合 LOG(INFO) 语法即可快速集成到项目中。"
       ],
-      "url": "https://blog.amoswu.top/posts/f624/",
-      "apiUrl": "https://blog.amoswu.top/api/posts/f624.json",
+      "url": "https://amoswu.top/posts/f624/",
+      "apiUrl": "https://amoswu.top/api/posts/f624.json",
       "matchType": "all"
     },
     {
@@ -183,8 +183,8 @@
         "通过修改注册表Config和NtpServer路径下的AnnounceFlags与Enabled值，可启用Window…",
         "Windows可通过Internet时间设置同步NTP服务器，Ubuntu使用ntpdate命令实现时间校准。"
       ],
-      "url": "https://blog.amoswu.top/posts/2956/",
-      "apiUrl": "https://blog.amoswu.top/api/posts/2956.json",
+      "url": "https://amoswu.top/posts/2956/",
+      "apiUrl": "https://amoswu.top/api/posts/2956.json",
       "matchType": "all"
     },
     {
@@ -209,8 +209,8 @@
         "硬盘推荐固态+机械组合，SSD装系统和软件提升速度，HDD存数据且支持误删恢复。",
         "独立显卡分集成与独立，后者性能更强，适合游戏与设计，接口如PCIe和NVMe影响带宽与速度。"
       ],
-      "url": "https://blog.amoswu.top/posts/e182/",
-      "apiUrl": "https://blog.amoswu.top/api/posts/e182.json",
+      "url": "https://amoswu.top/posts/e182/",
+      "apiUrl": "https://amoswu.top/api/posts/e182.json",
       "matchType": "all"
     },
     {
@@ -235,8 +235,8 @@
         "配置国内镜像源如阿里云可加速依赖下载，使用`go env -w GOPROXY`命令设置。",
         "GoLand中需正确设置GOROOT和GOPATH，并关闭GO111MODULE以兼容GOPATH模式。"
       ],
-      "url": "https://blog.amoswu.top/posts/53c2/",
-      "apiUrl": "https://blog.amoswu.top/api/posts/53c2.json",
+      "url": "https://amoswu.top/posts/53c2/",
+      "apiUrl": "https://amoswu.top/api/posts/53c2.json",
       "matchType": "all"
     },
     {
@@ -262,8 +262,8 @@
         "通过Markdown处理器将.md文件转为HTML，便于网页展示与多格式导出。",
         "常用语法包括标题、列表、引用、图片链接、粗斜体及表格，十分钟即可掌握基础操作。"
       ],
-      "url": "https://blog.amoswu.top/posts/c456/",
-      "apiUrl": "https://blog.amoswu.top/api/posts/c456.json",
+      "url": "https://amoswu.top/posts/c456/",
+      "apiUrl": "https://amoswu.top/api/posts/c456.json",
       "matchType": "all"
     }
   ]
