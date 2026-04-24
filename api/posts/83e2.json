@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "schema": "https://amoswu.top/api/posts/83e2.json",
+  "schema": "https://blog.amoswu.top/api/posts/83e2.json",
   "slug": "83e2",
   "title": "简明 Book Searcher 使用教程",
   "description": "Book Searcher 是基于 Anna's Archive 的开源工具，支持通过 IPFS 搜索 Z-Library 资源，用户可配置 cloudflare-ipfs.com 等网关或备用节点，配合检测工具确保稳定访问，并提供多入口选择以优化体验。",
@@ -24,6 +24,6 @@
     "提供多个可用网址入口，用户可灵活选择访问节点提升使用体验。"
   ],
   "license": "CC BY-SA 4.0",
-  "url": "https://amoswu.top/posts/83e2/",
+  "url": "https://blog.amoswu.top/posts/83e2/",
   "body": "> 自建 Book Searcher 地址： https://book.amoswu.cn\n>\n> Index version : 0.9.0\n\n![](https://p.amoswu.top/post/yHRL.jpg)\n\n## Book Searcher 简介\n\nBook Searcher 是 Z-library 的一个民间项目之一。这个项目是在 Z-library 被封之后诞生的，它的前身是 **[Anna's Archive](https://annas-archive.org/)**，国内网友将 Anna's Archive 数据库做成索引，通过搜索 IPFS ID 继而获得相应结果的下载链接。起初这个项目的名叫 **zLib Searcher**，后来改名成了 Book Searcher。\n\n> 项目开源地址： https://github.com/book-searcher-org/book-searcher\n\n## IPFS 简介\n\nIPFS的全称是 InterPlanetary File System ，即星际文件系统。它是一个点对点（P2P）的网络超媒体协议。它的目标是成为更快、更安全、更开放的下一代互联网，当然这不是它的终极目标，终极目标是取代现在的 HTTP ，创建一个完全去中心化的网络。\n\n> 官网：https://ipfs.io\n\n## Book Searcher 使用方法\n\n### 1. 打开以下任意网址\n\n- https://book.amoswu.cn\n- https://zlib.awesc.com\n- https://zlib.knat.network\n\n### 2. 点击右上角⚙️设置图标，输入 IPFS 网关地址，点击保存\n\n直接复制下列地址即可\n\n```\nhttps://cloudflare-ipfs.com\nhttps://dweb.link\nhttps://ipfs.io\nhttps://dw.oho.im\nhttps://gateway.pinata.cloud\nhttps://ipfs.best-practice.se\n```\n\nps: 如果哪天上述地址都不可用了，你还可以使用下面的 IPFS 网关检查工具来替代，尽量选择延迟较低的。\n\nhttps://ipfs.github.io/public-gateway-checker\n\n[https://ipfs-checker.1kbtool.com](https://ipfs-checker.1kbtool.com/)\n\n### 3. 任意搜索你想搜的书籍\n\n## 其他搜索引擎推荐\n\nhttps://bk.hallowlib.org\n\nhttps://clibrary.cn"
 }

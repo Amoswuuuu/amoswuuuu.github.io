@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "schema": "https://amoswu.top/api/posts/584e.json",
+  "schema": "https://blog.amoswu.top/api/posts/584e.json",
   "slug": "584e",
   "title": "Qt C++ Windows10环境配置",
   "description": "Qt是跨平台C++开发框架，支持GUI与非GUI程序开发，推荐通过清华大学镜像站下载Qt安装包以加速Windows 10环境搭建，安装时选择MinGW或MSVC编译器并配置Qt Creator，完成后即可通过开始菜单启动进行C++开发。",
@@ -27,6 +27,6 @@
     "安装完成后可通过开始菜单启动Qt Creator进行C++开发"
   ],
   "license": "CC BY-SA 4.0",
-  "url": "https://amoswu.top/posts/584e/",
+  "url": "https://blog.amoswu.top/posts/584e/",
   "body": "> 笔者2020年开始，从事了C++开发的相关工作，目前国内主流的C++开发工具多建立在可视化框架Qt的基础上，这一篇我们就来讲一讲Windows10 系统下如何快速搭建Qt for C++环境。\n\n## 1.简介\n\n### 1)C++简介\n\n`C++`是一种被广泛使用的计算机程序设计语言。它是一种通用程序设计语言，支持多重编程模式，例如过程化程序设计、数据抽象、面向对象程序设计、泛型程序设计和设计模式等。\n\n### 2)Qt简介\n\n`Qt`是一个跨平台的C++应用程序开发框架。广泛用于开发GUI程序，这种情况下又被称为部件工具箱。也可用于开发非GUI程序，比如控制台工具和服务器。Qt被用于OPIE、Skype、VLC media player、Adobe Photoshop Elements、VirtualBox与Mathematica以及被Autodesk、欧洲空间局、梦工厂、Google、HP、KDE、卢卡斯影业、西门子公司、沃尔沃集团, 华特迪士尼动画制作公司、三星集团、飞利浦、Panasonic 所使用。\n\n*来自[维基百科](https://wikipedia.org)  ,[IEEE Spectrum Programming Language 2020](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjtnYPcsJDrAhWXd94KHZsyAfIQFjACegQIDRAB&url=https%3A%2F%2Fspectrum.ieee.org%2Fstatic%2Finteractive-the-top-programming-languages-2020&usg=AOvVaw1CkOZTN3lc6OliFKLNFOGS)。*\n\n## 2. Qt下载\n\n目前Qt的同大多数框架一样，遵循两种版本推送方案，一种是稳定版，目前最新版本号为 5.15 ，另一种是预览版，目前最新版本号为 6.0 Snapshot。\n\nQt官网为 https://qt.io 。\n\n![qt官网](https://p.amoswu.top/post/20200820/ZI1kW.png)\n\nQt有多种下载方式，这里只贴出笔者使用的一种方式——[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/qt/official_releases/qt/) 。此镜像站提供Linux、MacOS、Windows下的三种安装包，满足大多数开发者的开发环境。\n\n![清华大学开源镜像站](https://p.amoswu.top/post/20200820/4NoKt.png)\n\n## 3.安装\n\n在准备好安装包后，我们就要进入正题——安装Qt并配置环境了。\n\n1)双击运行下载好的 `qt-opensource-windows-x86-5.12.exe`。\n\n2)选择`Next`，进行下一步。\n\n![image-20200811104343120](https://p.amoswu.top/post/20200820/hFEvI.png)\n\n3)最新版会要求登录或注册一个`Qt账户`，这里的`5.12.0`版本支持跳过此步，最新版不支持，所以建议大家去注册一个。\n\n![image-20200811105003243](https://p.amoswu.top/post/20200820/UwLH3.png)\n\n4)继续点击`下一步`，再点击`下一步`，选择安装目录。\n\n![image-20200811105129336](https://p.amoswu.top/post/20200820/2Qgce.png)\n\n5)再次点击`下一步`，进行Qt creator 设置\n\n![image-20200811105329840](http://img.wehuihua.cn/blog/20200811105331.png)\n\n选择显示的对应版本，我这里是`Qt 5.12.0`，勾选其中对应的`Mingw`，我这里的是`Mingw 7.3.0 64bit`。如果你还安装了`Visual Studio`开发环境，可以选择对应版本的`MSVC`。\n\n![image-20200811105651044](https://p.amoswu.top/post/20200820/rHSCY.png)\n\n6)再往后就是无脑`下一步`啦，知道看到下面这个界面，就说明安装和配置都完成啦~\n\n![image-20200811105811958](https://p.amoswu.top/post/20200820/mZWCV.png)\n\n安装完成后，可以在`开始菜单`和`桌面`看到`Qt Creator`图标，双击打开就可以编写Qt C++代码咯~ :smile:\n\n本期教程就到这里，下一期我们一起讲讲 `Qt Creator 编辑器下的代码格式化`~"
 }
